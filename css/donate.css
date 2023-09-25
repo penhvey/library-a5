@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 12vh;
+  background-color: rgb(218, 213, 213);
+  position: sticky;
+  top: 0px;
+}
+
+.inform {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  gap: 18%;
+  font-weight: bold;
+  color: rgb(8, 116, 116);
+}
+
+.logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 4%;
+  color: rgb(8, 116, 116);
+  font-weight: bold;
+}
+
+.logo > img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
+
+.cover {
+  position: relative;
+  font-family: sans-serif;
+}
+
+.form-container {
+  width: 40%;
+  height: 70vh;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(218, 213, 213);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-top: 30px;
+}
+
+h2 {
+  color: orange;
+}
+
+.form-header,
+.form-title {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 49%;
+}
+
+input[type=password],
+input[type=email],
+input[type=choose] {
+  width: 99%;
+}
+
+button {
+  width: 99%;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  background: green;
+  color: #fff;
+  margin-right: 7px;
+}
+
+footer {
+  background-color: rgb(218, 213, 213);
+  height: 50vh;
+}
+
+.form-icons {
+  margin-left: 34%;
+  font-size: 40px;
+}
+
+.form-icons > div {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.adress {
+  margin-top: 3%;
+  margin-left: 26%;
+  color: rgba(0, 0, 0, 0.351);
+}
+
+.contact {
+  display: flex;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 9%;
+  gap: 12%;
+}
+
+.email {
+  display: flex;
+  gap: 4%;
+}
+
+.phone-number {
+  display: flex;
+}
+
+.web-gmail {
+  display: flex;
+}
+
+.second-footer {
+  margin-top: 3%;
+  margin-left: 45%;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.372);
+}
+
+.inform :hover {
+  background-color: orange;
+  color: white;
+  border-radius: 10%;
+}/*# sourceMappingURL=donate.css.map */
