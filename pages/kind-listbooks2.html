@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library-a5</title>
+    <link rel="stylesheet" href="/css/kind-listbooks2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <span><img src="/Photos/image-removebg-preview (80).png" alt="" width="45px"></span>
+            <span>LIBRARY BOOK</span>
+        </div>
+        <div class="inform">
+            <div class="home">HOME</div>
+            <div class="list-books">LISTBOOKS</div>
+            <div class="donate">DONATE</div>
+            <div class="about-us">ABOUTUS</div>
+            <div class="fa fa-ellipsis-v"></div>
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="/Photos/pic-listbooks/cover-kids4.jpg" alt="" width="100%"  height="480vh">
+            </div>
+            <div class="mySlides fade">
+                <img src="/Photos/pic-listbooks/cover-kids3.avif" alt="" width="100%" height="480vh" >
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/Photos/pic-listbooks/cover-kids5.jpg" width="100%" height="480vh">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>  
+    </div>
+    <header>
+        <h1>ABC Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/abc1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc5.png" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/abc8.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Funny Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/fun1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun4.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun8.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/fun10.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Drawing Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/dwing1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/dwing9.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Legend Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/legend1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend13.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend11.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend12.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/legend14.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Exercise Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/ex1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex2.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/ex10.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+    </header>
+    <footer>
+        <div class="form-icons">
+            <div class="fa fa-instagram"></div>
+            <div class="fa fa-facebook-square"></div>
+            <div class="fa fa-twitter-square"></div>
+            <div class="fa fa-youtube-play"></div>
+        </div>
+        <div class="adress">
+            <p>BP 511, Phum Tropeang Chhuk (Borey Sorla) Sangtak, Street 371, Phnom Penh</p>
+        </div>
+        <div class="contact">
+            <span class="email">
+                <div class="fa fa-envelope-o"></div>
+                <p>Info@sunriselibrarybooks.com</p>
+            </span>
+            <span class="phone-number">
+                <div class="fa fa-phone"></div>
+                <p>(855) 23-500-600</p>
+            </span>
+            <span class="web-gmail">
+                <div class="fa fa-home"></div>
+                <p>https://www.passerellesnumeriques.org/en/our-actions/cambodia/</p>
+            </span>
+        </div>
+        <div class="second-footer"><p>Manage class and student-level settings</p></div>
+    </footer>
+</body>
+
+</html>
