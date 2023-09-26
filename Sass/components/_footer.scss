@@ -1,0 +1,50 @@
+
+
+footer {
+    background-color:rgb(218, 213, 213) ;
+    margin-top: 9%;
+    height: 50vh;
+}
+.form-icons {
+    margin-left: 34%;
+    font-size: 40px;
+}
+.form-icons > div {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.adress {
+    margin-top: 3%;
+    margin-left: 26%;
+    color: rgba(0, 0, 0, 0.351);
+}
+.contact{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 9%;
+    gap: 15%;
+}
+.email {
+    display: flex;
+}
+.phone-number {
+    display: flex;
+}
+.web-gmail {
+    display: flex;
+}
+.second-footer {
+    margin-top: 2%;
+    margin-left: 45%;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.372);
+}
+.inform :hover{
+    background-color: orange;
+    color: white;
+    border-radius: 10%;
+}
+.contact span {
+    gap: 10px;
+}
