@@ -1,0 +1,54 @@
+
+@import "main";
+// register
+.container{
+    height: 124vh;
+}
+.form-container {
+    width: 40%;
+    height: 70vh;
+    padding: 10px;
+    margin: auto;
+    background-color:rgb(218, 213, 213);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-group {
+    margin-top: 30px;
+}
+h2{
+    color: orange;
+}
+p{
+    margin-left: 10px;
+}
+.form-header,
+.form-title {
+    padding: 10px;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    box-sizing: border-box;
+}
+input[type="password"],
+input[type="email"]
+{
+    width: 99%;
+}
+input[type="text"]{
+    width: 264px;
+}
+select{
+    width: 99%;
+    height: 40px;
+}
+button {
+    width: 99%;
+    padding: 10px 25px;
+    border:none;
+    cursor: pointer;
+    background: green;
+    color: #fff;
+    margin-right: 7px;
+}
