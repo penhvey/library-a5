@@ -10,9 +10,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> ba4ab9b332ec11c55c0f07e192b4a86698cdb2d7
+=======
+
+>>>>>>> 23d34bb264011e07d5d39fb1f6e438344ffe0916
 <body>
     <nav>
         <div class="logo">
@@ -27,6 +31,7 @@
             <div class="fa fa-ellipsis-v"></div>
         </div>
     </nav>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div class="container">
         <div class="slideshow-container">
@@ -106,59 +111,83 @@
         <a class="next" onclick="plusSlides(1)">❯</a>
         <div class="mySlides">
             <img src="/Photos/book1.png" alt="" width="65%"  height="500vh">
+=======
+    <div class="container">
+        <div class="slideshow-container">
+            <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a> -->
+            <div class="mySlides">
+                <img src="/Photos/book1.png" alt="" width="65%" height="500vh">
+            </div>
+            <div class="mySlides">
+                <img src="/Photos/novel1.jpg" alt="" width="65%" height="500vh">
+            </div>
+            <div class="mySlides">
+                <img src="/Photos/novel2.jpg" width="65%" height="500vh">
+            </div>
+>>>>>>> 23d34bb264011e07d5d39fb1f6e438344ffe0916
         </div>
-        <div class="mySlides">
-            <img src="/Photos/novel1.jpg" alt="" width="65%" height="500vh" >   
+        <h1>History of <strong>Cambodia</strong> </h1>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-        <div class="mySlides">
-            <img src="/Photos/novel2.jpg" width="65%" height="500vh">
-        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum.
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum.
+        </p>
     </div>
-    <h1>History of  <strong>Cambodia</strong> </h1>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-    </script>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum.
-    </p>
+
 </body>
+<<<<<<< HEAD
 >>>>>>> ba4ab9b332ec11c55c0f07e192b4a86698cdb2d7
+=======
+
+>>>>>>> 23d34bb264011e07d5d39fb1f6e438344ffe0916
 </html>
