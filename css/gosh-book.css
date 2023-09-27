@@ -1,16 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-nav{
+
+nav {
   display: flex;
   height: 12vh;
-  background-color:rgb(218, 213, 213);
+  background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
 }
-.inform{
+
+.inform {
   display: flex;
   align-items: center;
   margin-left: 40%;
@@ -18,44 +20,48 @@ nav{
   font-weight: bold;
   color: rgb(8, 116, 116);
 }
-.logo{
+
+.logo {
   display: flex;
   justify-items: center;
   align-items: center;
   margin-left: 4%;
-  color:rgb(8, 116, 116);
+  color: rgb(8, 116, 116);
   font-weight: bold;
 }
-.logo > img{
+
+.logo > img {
   border: 2px solid rgb(16, 92, 92);
   border-radius: 50%;
 }
 
-.container{
+.container {
   height: 160vh;
 }
+
 .cover {
   position: relative;
   font-family: sans-serif;
-  
 }
-.slideshow-container{
-  margin-top: 2%;
-  
-}
-.mySlides > img{
-margin-left:17%;
-margin-bottom: 4%;
-margin-top: 4%;
 
-} 
+.slideshow-container {
+  margin-top: 2%;
+}
+
+.mySlides > img {
+  margin-left: 17%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
 .mySlides {
   width: 40%;
   height: 60%;
-  background-color:#bbb;
+  background-color: #bbb;
   margin-left: 30%;
   margin-right: 20%;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -69,22 +75,27 @@ margin-top: 4%;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
-p{
+
+p {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
 }
 
-h1{
+h1 {
   text-align: center;
   margin-top: 2%;
 }
-strong{
+
+strong {
   color: orange;
 }
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -93,8 +104,9 @@ strong{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -106,6 +118,7 @@ strong{
   text-align: center;
   align-items: center;
 }
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -128,6 +141,10 @@ strong{
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=gosh-book.css.map */
