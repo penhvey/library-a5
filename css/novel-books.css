@@ -10,6 +10,7 @@ nav {
   background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
+  margin-bottom: 2%;
 }
 
 .inform {
@@ -35,6 +36,73 @@ nav {
   border-radius: 50%;
 }
 
+footer {
+  background-color: rgb(218, 213, 213);
+  margin-top: 9%;
+  height: 50vh;
+}
+
+.form-icons {
+  margin-left: 34%;
+  font-size: 40px;
+}
+
+.form-icons > div {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.adress {
+  margin-top: 3%;
+  margin-left: 26%;
+  color: rgba(0, 0, 0, 0.351);
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 9%;
+  gap: 15%;
+}
+
+.email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-footer {
+  margin-top: 2%;
+  margin-left: 45%;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.372);
+}
+
+.inform :hover {
+  background-color: orange;
+  color: white;
+  border-radius: 10%;
+}
+
+.contact span {
+  gap: 10px;
+}
+
 .container {
   height: 160vh;
 }
@@ -42,10 +110,6 @@ nav {
 .cover {
   position: relative;
   font-family: sans-serif;
-}
-
-.slideshow-container {
-  margin-top: 2%;
 }
 
 .mySlides > img {
@@ -63,6 +127,8 @@ nav {
 }
 
 /* Next & previous buttons */
+<<<<<<< HEAD:css/novel-books.css
+=======
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -80,6 +146,7 @@ nav {
           user-select: none;
 }
 
+>>>>>>> 5505f18d0ac384e855605acb063365a29c9d2710:css/third-listbooks.css
 p {
   margin-left: 15%;
   margin-right: 15%;
@@ -103,7 +170,8 @@ strong {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -130,7 +198,8 @@ strong {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
