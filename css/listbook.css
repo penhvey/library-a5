@@ -5,14 +5,20 @@
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
 }
 
 .inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -20,9 +26,13 @@ nav {
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -50,6 +60,8 @@ nav {
 }
 
 .aldult-book, .kids-book, .cooking-book, .technology-book, .hisrory-book, .nature-book, .healty-book {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 4%;
 }
@@ -105,6 +117,8 @@ footer {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -113,14 +127,20 @@ footer {
 }
 
 .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -135,4 +155,4 @@ footer {
   background-color: orange;
   color: white;
   border-radius: 10%;
-}/*# sourceMappingURL=listbook.css.map */
+}
