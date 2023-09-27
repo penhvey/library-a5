@@ -59,6 +59,8 @@ footer {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -67,20 +69,31 @@ footer {
 }
 
 .email {
+<<<<<<< HEAD
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> 8844a966bff893b3e309914c884ad2e108e78e59
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 
 .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -195,4 +208,8 @@ strong {
   to {
     opacity: 1;
   }
+<<<<<<< HEAD
 }/*# sourceMappingURL=novel-books.css.map */
+=======
+}
+>>>>>>> 8844a966bff893b3e309914c884ad2e108e78e59
