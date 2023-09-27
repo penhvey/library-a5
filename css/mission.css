@@ -5,8 +5,6 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -15,12 +13,8 @@ nav {
 }
 
 .inform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -28,13 +22,9 @@ nav {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -68,8 +58,6 @@ footer {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -78,20 +66,14 @@ footer {
 }
 
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -128,28 +110,17 @@ footer {
 }
 
 .goal {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 5%;
 }
 
 .goal-1,
 .goal-2,
 .goal-3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
   padding-right: 40%;
   margin-bottom: 5%;
   gap: 5%;
@@ -157,4 +128,4 @@ footer {
 
 .text {
   padding-top: 10px;
-}
+}/*# sourceMappingURL=mission.css.map */
