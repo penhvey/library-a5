@@ -67,6 +67,11 @@ footer {
 }
 
 .email {
+<<<<<<< HEAD
+  display: -webkit-box;
+  display: -ms-flexbox;
+=======
+>>>>>>> e7ea2cea7f8b88a02d745b815035fc374cc4e8f0
   display: flex;
   gap: 4%;
   gap: 15%;
