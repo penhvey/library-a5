@@ -1,44 +1,4 @@
-// *{
-//     margin: 0;
-//     padding: 0;
-//     font-family: sans-serif;
-//   }
-//   nav{
-//     display: flex;
-//     height: 12vh;
-//     background-color:rgb(218, 213, 213);
-//     position: sticky;
-//     top: 0px;
-//   }
-//   .inform{
-//     display: flex;
-//     align-items: center;
-//     margin-left: 40%;
-//     gap: 18%;
-//     font-weight: bold;
-//     color: rgb(8, 116, 116);
-//   }
-//   .logo{
-//     display: flex;
-//     justify-items: center;
-//     align-items: center;
-//     margin-left: 4%;
-//     color:rgb(8, 116, 116);
-//     font-weight: bold;
-//   }
-//   .logo > img{
-//     border: 2px solid rgb(16, 92, 92);
-//     border-radius: 50%;
-//   }
-  
-//   .container{
-//     height: 160vh;
-//   }
-//   .cover {
-//     position: relative;
-//     font-family: sans-serif;
-    
-//   }
+
 @import "main";
   .slideshow-container{
     margin-top: 2%;
@@ -58,20 +18,20 @@
     margin-right: 20%;
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
   /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+  // .prev, .next {
+  //   cursor: pointer;
+  //   position: absolute;
+  //   top: 50%;
+  //   width: auto;
+  //   padding: 16px;
+  //   margin-top: -22px;
+  //   color: white;
+  //   font-weight: bold;
+  //   font-size: 18px;
+  //   transition: 0.6s ease;
+  //   border-radius: 0 3px 3px 0;
+  //   user-select: none;
+  // }
   p{
     margin-left: 15%;
     margin-right: 15%;
@@ -121,14 +81,29 @@
   .active, .dot:hover {
     background-color: #717171;
   }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+  
+    to {
+      opacity: 1
+    }
+  }
   
   /* Fading animation */
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
   @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    from {
+      opacity: .4
+    }
+  
+    to {
+      opacity: 1
+    }
   }
+  
+ 

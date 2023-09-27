@@ -5,8 +5,6 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -14,12 +12,8 @@ nav {
 }
 
 .inform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -27,13 +21,9 @@ nav {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -62,12 +52,10 @@ nav {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -90,13 +78,9 @@ nav {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .dot {
@@ -107,7 +91,6 @@ nav {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -118,19 +101,8 @@ nav {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
@@ -173,8 +145,7 @@ header h1 {
   outline: none;
   background-color: black;
   border-radius: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .slider-books .slide-button:hover {
@@ -228,8 +199,6 @@ footer {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -238,21 +207,15 @@ footer {
 }
 
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 4%;
 }
 
 .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -267,4 +230,4 @@ footer {
   background-color: orange;
   color: white;
   border-radius: 10%;
-}
+}/*# sourceMappingURL=kind-listbooks.css.map */
