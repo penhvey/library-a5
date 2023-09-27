@@ -59,34 +59,33 @@ footer {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
   margin-left: 9%;
+  gap: 12%;
+}
+
+.email {
+  display: flex;
+  gap: 4%;
   gap: 15%;
 }
 
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .second-footer {
+  margin-top: 3%;
   margin-top: 2%;
   margin-left: 45%;
   font-size: 10px;
@@ -127,26 +126,6 @@ footer {
 }
 
 /* Next & previous buttons */
-<<<<<<< HEAD:css/novel-books.css
-=======
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
->>>>>>> 5505f18d0ac384e855605acb063365a29c9d2710:css/third-listbooks.css
 p {
   margin-left: 15%;
   margin-right: 15%;
@@ -216,4 +195,4 @@ strong {
   to {
     opacity: 1;
   }
-}/*# sourceMappingURL=third-listbooks.css.map */
+}/*# sourceMappingURL=novel-books.css.map */
