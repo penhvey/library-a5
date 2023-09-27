@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library-a5</title>
+    <link rel="stylesheet" href="/css/kind-listbooks5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <span><img src="/Photos/image-removebg-preview (80).png" alt="" width="45px"></span>
+            <span>LIBRARY BOOK</span>
+        </div>
+        <div class="inform">
+            <div class="home">HOME</div>
+            <div class="list-books">LISTBOOKS</div>
+            <div class="donate">DONATE</div>
+            <div class="about-us">ABOUTUS</div>
+            <div class="fa fa-ellipsis-v"></div>
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="/Photos/cover-history1.jpg" alt="" width="100%"  height="480vh">
+            </div>
+            <div class="mySlides fade">
+                <img src="/Photos/cover-history3.jpg" alt="" width="100%" height="480vh" >
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/Photos/cover-history2.webp" width="100%" height="480vh">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>  
+    </div>
+    <header>
+        <h1>Khmer-History Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/history1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/history10.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Plannet Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/plannet1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/plannet10.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>IT Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/it1.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it10.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it2.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/it2.webp" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Robot Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/robot1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot10.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot2.webp" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot6.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/robot9.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+        <h1>Digital Books</h1>
+        <div class="slider-books">
+            <button id="prev-slide" class="slide-button fa fa-angle-left"></button>
+            <div class="history-book">
+                <img src="/Photos/pic-listbooks/gitital1.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital2.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital3.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital4.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital5.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital10.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital7.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital8.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital9.jpg" alt="" class="image-list" width="20%">
+                <img src="/Photos/pic-listbooks/gitital10.jpg" alt="" class="image-list" width="20%">
+            </div>
+            <button id="next-slide" class="slide-button fa fa-angle-right"></button>
+        </div>
+    </header>
+    <footer>
+        <div class="form-icons">
+            <div class="fa fa-instagram"></div>
+            <div class="fa fa-facebook-square"></div>
+            <div class="fa fa-twitter-square"></div>
+            <div class="fa fa-youtube-play"></div>
+        </div>
+        <div class="adress">
+            <p>BP 511, Phum Tropeang Chhuk (Borey Sorla) Sangtak, Street 371, Phnom Penh</p>
+        </div>
+        <div class="contact">
+            <span class="email">
+                <div class="fa fa-envelope-o"></div>
+                <p>Info@sunriselibrarybooks.com</p>
+            </span>
+            <span class="phone-number">
+                <div class="fa fa-phone"></div>
+                <p>(855) 23-500-600</p>
+            </span>
+            <span class="web-gmail">
+                <div class="fa fa-home"></div>
+                <p>https://www.passerellesnumeriques.org/en/our-actions/cambodia/</p>
+            </span>
+        </div>
+        <div class="second-footer"><p>Manage class and student-level settings</p></div>
+    </footer>
+</body>
+
+</html>
