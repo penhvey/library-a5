@@ -2,10 +2,10 @@
 nav{
     display: flex;
     height: 12vh;
-    background-color:rgb(218, 213, 213);
+    background-color:$rgb213;
     position: sticky;
     top: 0px;
-    margin-bottom: 2%;
+    // margin-bottom: 2%;
 }
 .inform{
     display: flex;
@@ -13,17 +13,17 @@ nav{
     margin-left: 40%;
     gap: 18%;
     font-weight: bold;
-    color: rgb(8, 116, 116);
+    color: $rgb116;
 }
 .logo{
     display: flex;
     justify-items: center;
     align-items: center;
     margin-left: 4%;
-    color:rgb(8, 116, 116);
+    color:$rgb116;
     font-weight: bold;
 }
 .logo > img{
-    border: 2px solid rgb(16, 92, 92);
+    border: 2px solid $rgb92;
     border-radius: 50%;
 }

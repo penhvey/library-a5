@@ -1,33 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-nav{
-    display: flex;
-    height: 12vh;
-    background-color:rgb(218, 213, 213);
-}
-.inform{
-    display: flex;
-    align-items: center;
-    margin-left: 40%;
-    gap: 18%;
-    font-weight: bold;
-    color: rgb(8, 116, 116);
-}
-.logo{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-left: 4%;
-    color:rgb(8, 116, 116);
-    font-weight: bold;
-}
-.logo > img{
-    border: 2px solid rgb(16, 92, 92);
-    border-radius: 50%;
-}
+
+@import "main";
 .cover {
     position: relative;
     font-family: sans-serif;
@@ -37,8 +9,8 @@ nav{
     bottom: 50%;;
     height: 35vh;
     width: 55%;
-    background-color: rgba(255, 255, 255, 0.253);
-    color: rgb(6, 71, 71);
+    background-color: $rgb0253;
+    color: $rgb67171;
 }
 .second-block {
     position:  absolute;
@@ -46,16 +18,16 @@ nav{
 }
 .second-block > button {
     margin-left: 25%;
-    color: rgba(255, 255, 255, 0.847);
+    color: $rgb0847;
     font-weight: bold;
     border-radius: 20vh;
     height: 6vh;
     width: 120px;
     border: none;
-    background-color: rgb(9, 90, 90);
+    background-color: $rgb90;
 }
 h1 > span {
-    color: rgb(187, 124, 6);
+    color: $rgb6;
 }
 .text-block > h1 {
     margin-top: 6%;
@@ -64,7 +36,7 @@ h1 > span {
 .text-block> p {
     margin-top: 2%;
     margin-left: 5%;
-    color: rgba(0, 0, 0, 0.458);
+    color: $rgb0458;
 }
 
 /* header{
@@ -75,13 +47,13 @@ h1 > span {
     margin-top: 5%;
     margin-left: 35%;
     font-size: 60px;
-    color: rgb(3, 82, 82);
+    color: $rgb82;
 }
 .open-time > h1 > span{
-    color: rgb(206, 134, 0);
+    color: $rgb0;
 }
 .open-time > p {
-    color: rgba(0, 0, 0, 0.437);
+    color: $rgb0437;
     margin-top: 2%;
     margin-left: 24%;
 }
@@ -96,14 +68,14 @@ h1 > span {
     gap: 20%;
 }
 .date-time > .date > p> span {
-    color: rgba(231, 13, 13, 0.756);
+    color: $rgb0756;
 }
 .vl {
-    border: 1px solid rgba(0, 0, 0, 0.361);
+    border: 1px solid $rgb0361;
     height: 60px;
 }
 footer {
-    background-color:rgb(218, 213, 213) ;
+    background-color:$rgb213 ;
     margin-top: 9%;
     height: 50vh;
 }
@@ -118,7 +90,7 @@ footer {
 .adress {
     margin-top: 3%;
     margin-left: 26%;
-    color: rgba(0, 0, 0, 0.351);
+    color: $rgb0351;
 }
 .contact{
     display: flex;
@@ -141,10 +113,13 @@ footer {
     margin-top: 3%;
     margin-left: 45%;
     font-size: 10px;
-    color: rgba(0, 0, 0, 0.372);
+    color: $rgb0372;
 }
 .inform :hover{
-    background-color: orange;
-    color: white;
+    background-color: $orange;
+    color: $white;
     border-radius: 10%;
+}
+.contact span{
+    gap: 10px;
 }

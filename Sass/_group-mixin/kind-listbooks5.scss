@@ -1,38 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    height: 12vh;
-    background-color: rgb(218, 213, 213);
-    width: 100%;
-  }
-  
-  .inform {
-    display: flex;
-    align-items: center;
-    margin-left: 40%;
-    gap: 18%;
-    font-weight: bold;
-    color: rgb(8, 116, 116);
-  }
-  
-  .logo {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-left: 4%;
-    color: rgb(8, 116, 116);
-    font-weight: bold;
-  }
-  
-  .logo>img {
-    border: 2px solid rgb(16, 92, 92);
-    border-radius: 50%;
-  }
+@import "main";
+
   
   .slideshow-container {
     max-width: 100%;
@@ -49,7 +16,7 @@
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: $white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -66,12 +33,12 @@
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: $rgb8;
   }
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
+    color: $f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -86,7 +53,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: $bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -94,7 +61,7 @@
   
   .active,
   .dot:hover {
-    background-color: #717171;
+    background-color: $brown717171;
   }
   
   /* Fading animation */
@@ -116,7 +83,7 @@
     margin-top:7%;
     margin-left: 5.3%;
     margin-bottom: 2%;
-    color: rgb(10, 107, 107);
+    color: $rgb107;
   }
   .slider-books .history-book {
     display: grid;
@@ -136,15 +103,15 @@
     top: 50%;
     height: 50px;
     width: 50px;
-    color: #f2f2f2;
+    color: $f2f2f2;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: $black;
     border-radius: 50%;
     transform: translateY(-50%);
   }
   .slider-books  .slide-button:hover {
-    background: #444;
+    background: $rgb444;
   }
   .slider-books .slide-button#prev-slide {
     left: 0.5%;
@@ -163,51 +130,5 @@
   .slider-books {
     max-width: 1200px;
     width: 95%;
-  }
-  footer {
-    background-color:rgb(218, 213, 213) ;
-    margin-top: 9%;
-    height: 50vh;
-  }
-  .form-icons {
-    margin-left: 34%;
-    font-size: 40px;
-  }
-  .form-icons > div {
-    margin-top: 5%;
-    margin-left: 5%;
-  }
-  .adress {
-    margin-top: 3%;
-    margin-left: 26%;
-    color: rgba(0, 0, 0, 0.351);
-  }
-  .contact{
-    display: flex;
-    font-size: 15px;
-    margin-top: 5%;
-    margin-left: 9%;
-    gap: 12%;
-  }
-  .email {
-    display: flex;
-    gap: 4%;
-  }
-  .phone-number {
-    display: flex;
-  }
-  .web-gmail {
-    display: flex;
-  }
-  .second-footer {
-    margin-top: 3%;
-    margin-left: 45%;
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.372);
-  }
-  .inform :hover{
-    background-color: orange;
-    color: white;
-    border-radius: 10%;
   }
   
