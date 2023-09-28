@@ -2,7 +2,15 @@
 @import "main";
 // register
 .container{
-    height: 124vh;
+    height: 144vh;
+}
+.inform {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    gap: 15%;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
 }
 .form-container {
     width: 40%;
