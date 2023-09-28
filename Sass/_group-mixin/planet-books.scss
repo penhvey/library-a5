@@ -1,8 +1,8 @@
 @import "main";
+
 .container {
   height: 160vh;
 }
-
 .cover {
   position: relative;
   font-family: sans-serif;
@@ -52,6 +52,7 @@ strong {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 /* Caption text */
 .text {
   color: #f2f2f2;
