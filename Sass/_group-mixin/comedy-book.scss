@@ -108,7 +108,10 @@ strong {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
+a {
+    color: rgb(6, 126, 126);
+    text-decoration: none;
+}
 @keyframes fade {
     from {
         opacity: .4

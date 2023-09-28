@@ -173,4 +173,9 @@ footer {
   background-color: orange;
   color: white;
   border-radius: 10%;
+}
+
+a {
+  color: rgb(6, 126, 126);
+  text-decoration: none;
 }/*# sourceMappingURL=home.css.map */
