@@ -1,12 +1,13 @@
 @import "main";
 
+
 // about-us//
 .about-us {
     height: 210vh;
 }
 
 .color-gray {
-    background-color: $rgb200;
+    background-color: rgb(202, 200, 200);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,21 +20,21 @@
 
 .color-gray h1 {
     margin-top: -60px;
-    color: $teal;
+    color: teal;
 }
 
 button {
-    background: $teal;
-    color: $white;
+    background: teal;
+    color: white;
     height: 9vh;
     width: 45%;
-    border: 1px $teal;
+    border: 1px teal;
     margin-left: 48%;
     margin-top: -50px;
 }
 
 .about-us p {
-    background-color: $rgb214;
+    background-color: rgb(164, 214, 214);
     width: 80%;
     height: 30vh;
     margin-left: 9%;

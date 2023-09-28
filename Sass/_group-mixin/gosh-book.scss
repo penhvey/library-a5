@@ -1,4 +1,5 @@
 @import "main";
+
   .slideshow-container{
     margin-top: 2%;
     
@@ -12,7 +13,7 @@
   .mySlides {
     width: 40%;
     height: 60%;
-    background-color:$bbb;
+    background-color:#bbb;
     margin-left: 30%;
     margin-right: 20%;
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
@@ -24,7 +25,7 @@
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: $white;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -43,7 +44,7 @@
     margin-top: 2%;
   }
   strong{
-    color: $orange;
+    color: orange;
   }
   /* Position the "next button" to the right */
   .next {
@@ -53,11 +54,11 @@
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: $rgb8;
+    background-color: rgba(0,0,0,0.8);
   }
   /* Caption text */
   .text {
-    color: $f2f2f2;
+    color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -71,14 +72,14 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: $bbb;
+    background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .active, .dot:hover {
-    background-color: $brown717171;
+    background-color: #717171;
   }
   
   /* Fading animation */
@@ -91,73 +92,3 @@
     from {opacity: .4} 
     to {opacity: 1}
   }
-  .inform :hover {
-    color: rgb(229, 135, 4);
-    font-weight: bold;
-}
-
-a {
-    color: rgb(6, 126, 126);
-    text-decoration: none;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    // background-color: rgb(19, 94, 107);
-    bottom: 12%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #bc7b09;
-    border-radius: 0%;
-    min-width: 105px;
-    right: 3%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #01545a;
-    border-radius: 0%;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-
-}

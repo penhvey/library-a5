@@ -1,5 +1,5 @@
 footer {
-    background-color: $rgb213;
+    background-color: rgb(218, 213, 213);
     margin-top: 9%;
     height: 50vh;
     padding-top: 50px;
@@ -18,7 +18,7 @@ footer {
 .adress {
     margin-top: 2%;
     margin-left: 26%;
-    color: $rgb0351;
+    color: rgba(0, 0, 0, 0.351);
 }
 
 .contact {
@@ -52,12 +52,12 @@ footer {
     margin-top: 2%;
     margin-left: 45%;
     font-size: 10px;
-    color: $rgb0372;
+    color: rgba(0, 0, 0, 0.372);
 }
 
 .inform :hover {
-    background-color: $orange;
-    color: $white;
+    background-color: orange;
+    color: white;
     border-radius: 10%;
 }
 

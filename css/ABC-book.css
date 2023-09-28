@@ -187,31 +187,41 @@ a {
   display: block;
 }
 
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+.container {
+  height: 160vh;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+.slideshow-container {
+  margin-top: 2%;
+}
+
+.mySlides > img {
+  margin-left: 17%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.mySlides {
+  width: 40%;
+  height: 60%;
+  background-color: #bbb;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+.container p {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+strong {
+  color: orange;
 }
 
 /* Position the "next button" to the right */
@@ -221,8 +231,7 @@ a {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -254,8 +263,7 @@ a {
   transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
+.active, .dot:hover {
   background-color: #717171;
 }
 
@@ -283,67 +291,4 @@ a {
   to {
     opacity: 1;
   }
-}
-header h1 {
-  margin-top: 7%;
-  margin-left: 5.3%;
-  margin-bottom: 2%;
-  color: rgb(10, 107, 107);
-}
-
-.slider-books .history-book {
-  display: grid;
-  gap: 4%;
-  margin-left: 5.5%;
-  margin-bottom: 6%;
-  grid-template-columns: repeat(10, 1fr);
-  font-size: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.slider-books {
-  position: relative;
-}
-
-.slider-books .slide-button {
-  position: absolute;
-  top: 50%;
-  height: 50px;
-  width: 50px;
-  color: #f2f2f2;
-  border: none;
-  outline: none;
-  background-color: black;
-  border-radius: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.slider-books .slide-button:hover {
-  background: #444;
-}
-
-.slider-books .slide-button#prev-slide {
-  left: 0.5%;
-}
-
-.slider-books .slide-button#next-slide {
-  right: -5%;
-}
-
-.slider-books .history-book ::-webkit-scrollbar {
-  display: none;
-}
-
-.slider-books > .history-book > .image-list {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 200px;
-  height: 300px;
-}
-
-.slider-books {
-  max-width: 1200px;
-  width: 95%;
 }

@@ -1,4 +1,3 @@
-
 @import "main";
 
 .slideshow-container {
@@ -16,7 +15,7 @@
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: $white;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -33,12 +32,12 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: $rgb8;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: $f2f2f2;
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -53,7 +52,7 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: $bbb;
+  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -61,7 +60,7 @@
 
 .active,
 .dot:hover {
-  background-color: $brown717171;
+  background-color: #717171;
 }
 
 /* Fading animation */
@@ -83,7 +82,7 @@ header h1 {
   margin-top:7%;
   margin-left: 5.3%;
   margin-bottom: 2%;
-  color: $rgb107;
+  color: rgb(10, 107, 107);
 }
 .slider-books .history-book {
   display: grid;
@@ -103,15 +102,15 @@ header h1 {
   top: 50%;
   height: 50px;
   width: 50px;
-  color: $f2f2f2;
+  color: #f2f2f2;
   border: none;
   outline: none;
-  background-color: $black;
+  background-color: black;
   border-radius: 50%;
   transform: translateY(-50%);
 }
 .slider-books  .slide-button:hover {
-  background: $rgb444;
+  background: #444;
 }
 .slider-books .slide-button#prev-slide {
   left: 0.5%;

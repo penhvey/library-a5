@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: $teal;
+    color: teal;
 }
 
 .form-container p {
@@ -25,14 +25,14 @@
 }
 
 .register {
-    border: 1px solid $black000;
+    border: 1px solid #000;
     border-radius: 10px 10px 10px 10px;
     width: 50%;
     height: 530px;
     margin-top: 30px;
     margin-left: 340px;
     padding: 20px;
-    background: $rgb0959;
+    background: rgba(220, 220, 220, 0.959);
 }
 
 .form-group {
@@ -78,7 +78,7 @@ button {
     margin-top: 50px;
     border: none;
     cursor: pointer;
-    background: $green;
-    color: $fff;
+    background: green;
+    color: #fff;
    
 }
