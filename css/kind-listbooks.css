@@ -133,6 +133,7 @@ header h1 {
 
 .slider-books {
   position: relative;
+  overscroll-behavior-x: auto;
 }
 
 .slider-books .slide-button {

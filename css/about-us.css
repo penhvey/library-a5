@@ -10,12 +10,13 @@ nav {
   background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
+  margin-bottom: 2%;
 }
 
 .inform {
   display: flex;
   align-items: center;
-  margin-left: 37%;
+  margin-left: 40%;
   gap: 18%;
   font-weight: bold;
   color: rgb(8, 116, 116);
@@ -92,7 +93,8 @@ footer {
 }
 
 .inform :hover {
-  color: rgb(231, 149, 18);
+  background-color: orange;
+  color: white;
   border-radius: 10%;
 }
 
