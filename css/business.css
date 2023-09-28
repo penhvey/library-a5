@@ -5,8 +5,6 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -16,12 +14,8 @@ nav {
 }
 
 .inform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -29,13 +23,9 @@ nav {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -69,8 +59,6 @@ footer {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -79,31 +67,20 @@ footer {
 }
 
 .email {
-<<<<<<< HEAD
-=======
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> 8844a966bff893b3e309914c884ad2e108e78e59
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -148,6 +125,11 @@ footer {
   margin-right: 20%;
 }
 
+a {
+  color: rgb(6, 126, 126);
+  text-decoration: none;
+}
+
 /* Next & previous buttons */
 p {
   margin-left: 15%;
@@ -184,13 +166,9 @@ strong {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .dot {
@@ -201,7 +179,6 @@ strong {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -212,19 +189,8 @@ strong {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
@@ -234,4 +200,4 @@ strong {
   to {
     opacity: 1;
   }
-}
+}/*# sourceMappingURL=business.css.map */

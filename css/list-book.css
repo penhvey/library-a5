@@ -135,4 +135,18 @@ footer {
   background-color: orange;
   color: white;
   border-radius: 10%;
+}
+
+button :hover {
+  color: orange;
+  font-size: 15px;
+}
+
+a {
+  color: rgb(6, 126, 126);
+  text-decoration: none;
+}
+
+button a {
+  color: aliceblue;
 }/*# sourceMappingURL=list-book.css.map */

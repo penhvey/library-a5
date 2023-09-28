@@ -161,4 +161,9 @@ button {
   background: green;
   color: #fff;
   margin-right: 7px;
+}
+
+a {
+  color: rgb(6, 126, 126);
+  text-decoration: none;
 }/*# sourceMappingURL=donate.css.map */
