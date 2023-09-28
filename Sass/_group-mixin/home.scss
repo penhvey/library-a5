@@ -4,19 +4,23 @@
     position: relative;
     font-family: sans-serif;
 }
+
 .text-block {
-    position:  absolute;
-    bottom: 50%;;
+    position: absolute;
+    bottom: 50%;
+    ;
     height: 35vh;
     width: 55%;
     background-color: $rgb0253;
     color: $rgb67171;
 }
+
 .second-block {
-    position:  absolute;
+    position: absolute;
     bottom: 40%;
 }
-.second-block > button {
+
+.second-block>button {
     margin-left: 25%;
     color: $rgb0847;
     font-weight: bold;
@@ -29,11 +33,13 @@
 h1 > span {
     color: $rgb6;
 }
-.text-block > h1 {
+
+.text-block>h1 {
     margin-top: 6%;
     margin-left: 5%;
 }
-.text-block> p {
+
+.text-block>p {
     margin-top: 2%;
     margin-left: 5%;
     color: $rgb0458;
@@ -43,7 +49,7 @@ h1 > span {
 
 } */
 
-.open-time > h1{
+.open-time>h1 {
     margin-top: 5%;
     margin-left: 35%;
     font-size: 60px;
@@ -57,11 +63,13 @@ h1 > span {
     margin-top: 2%;
     margin-left: 24%;
 }
+
 .date-time {
     margin-top: 12%;
     margin-left: 6%;
 }
-.date-time > .date {
+
+.date-time>.date {
     display: flex;
     font-size: 30px;
     font-weight: bold;
@@ -70,45 +78,55 @@ h1 > span {
 .date-time > .date > p> span {
     color: $rgb0756;
 }
+
 .vl {
     border: 1px solid $rgb0361;
     height: 60px;
 }
+
 footer {
     background-color:$rgb213 ;
     margin-top: 9%;
     height: 50vh;
 }
+
 .form-icons {
     margin-left: 34%;
     font-size: 40px;
 }
-.form-icons > div {
+
+.form-icons>div {
     margin-top: 5%;
     margin-left: 5%;
 }
+
 .adress {
     margin-top: 3%;
     margin-left: 26%;
     color: $rgb0351;
 }
-.contact{
+
+.contact {
     display: flex;
     font-size: 15px;
     margin-top: 5%;
     margin-left: 9%;
     gap: 12%;
 }
+
 .email {
     display: flex;
     gap: 4%;
 }
+
 .phone-number {
     display: flex;
 }
+
 .web-gmail {
     display: flex;
 }
+
 .second-footer {
     margin-top: 3%;
     margin-left: 45%;
