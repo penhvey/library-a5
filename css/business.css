@@ -13,8 +13,23 @@ nav {
   position: sticky;
   top: 0px;
 }
-
-.inform {
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4%;
+  color: rgb(8, 116, 116);
+  font-weight: bold;
+}
+nav .logo img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
+nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,43 +42,22 @@ nav {
   color: rgb(8, 116, 116);
 }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 4%;
-  color: rgb(8, 116, 116);
-  font-weight: bold;
-}
-
-.logo > img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
-
 footer {
   background-color: rgb(218, 213, 213);
   margin-top: 9%;
   height: 50vh;
   padding-top: 50px;
 }
-
-.form-icons {
+footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
-
-.adress {
+footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
 }
-
-.contact {
+footer .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,49 +66,37 @@ footer {
   margin-left: 9%;
   gap: 12%;
 }
-
-.email {
+footer .contact .email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 4%;
   gap: 15%;
 }
-
-.email {
+footer .contact .phone-number {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.phone-number {
+footer .contact .web-gmail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+footer .contact span {
+  gap: 10px;
 }
-
-.second-footer {
+footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
   margin-left: 45%;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
-
-.inform :hover {
+footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
-}
-
-.contact span {
-  gap: 10px;
 }
 
 .inform :hover {
@@ -187,60 +169,38 @@ a {
   display: block;
 }
 
-.cover {
-  position: relative;
-  font-family: sans-serif;
+.container {
+  height: 160vh;
+  margin-top: 2%;
+  /* Caption text */
+  /* Fading animation */
 }
-
-.slideshow-container {
-  margin-top: 10%;
-}
-
-.mySlides > img {
-  margin-left: 17%;
-  margin-bottom: 4%;
-  margin-top: 4%;
-}
-
-.mySlides {
+.container .slideshow-container .mySlides {
   width: 40%;
   height: 60%;
   background-color: #bbb;
   margin-left: 30%;
   margin-right: 20%;
 }
-
-/* Next & previous buttons */
-p {
+.container .slideshow-container .mySlides img {
+  margin-left: 17%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+.container p {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
 }
-
-h1 {
-  text-align: center;
-  margin-top: 2%;
-}
-
-strong {
-  color: orange;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
+.container .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -254,8 +214,7 @@ strong {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.dot {
+.container .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -266,20 +225,16 @@ strong {
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
-
-.active,
-.dot:hover {
+.container .active,
+.container .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
-.fade {
+.container .fade {
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
@@ -288,7 +243,6 @@ strong {
     opacity: 1;
   }
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
