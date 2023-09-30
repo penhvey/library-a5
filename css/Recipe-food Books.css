@@ -171,71 +171,43 @@ a {
   display: block;
 }
 
-.slideshow-container {
-  margin-top: 2%;
+.container {
+  height: 160vh;
+  /* Caption text */
+  /* Fading animation */
 }
-
-.mySlides > img {
-  margin-left: 5%;
-  margin-bottom: 4%;
-  margin-top: 4%;
+.container .slideshow-container {
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
 }
-
-.mySlides {
+.container .slideshow-container .mySlides {
   width: 40%;
   height: 60%;
   background-color: #bbb;
   margin-left: 30%;
   margin-right: 20%;
 }
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-p {
+.container .slideshow-container .mySlides img {
   margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 2%;
-  text-align: justify;
+  margin-bottom: 4%;
+  margin-top: 4%;
 }
-
-h1 {
-  text-align: center;
-  margin-top: 2%;
-}
-
-strong {
-  color: orange;
-}
-
-/* Position the "next button" to the right */
-.next {
+.container .slideshow-container .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.container .slideshow-container .prev:hover,
+.container .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Caption text */
-.text {
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+.container .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -245,8 +217,7 @@ strong {
   text-align: center;
   align-items: center;
 }
-
-.dot {
+.container .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -256,17 +227,14 @@ strong {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active, .dot:hover {
+.container .active,
+.container .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
-.fade {
+.container .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -274,4 +242,10 @@ strong {
   to {
     opacity: 1;
   }
+}
+.container p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  text-align: justify;
 }/*# sourceMappingURL=Recipe-food Books.css.map */
