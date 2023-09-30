@@ -118,16 +118,18 @@ header h1 {
   margin-bottom: 2%;
   color: rgb(10, 107, 107);
 }
+
 .slider-books .history-book {
   display: grid;
   gap: 4%;
-  margin-left: 5.5%;
+  margin-left: 5.5%; 
   margin-bottom: 6%;
   grid-template-columns: repeat(10 ,1fr);
   font-size: 0;
   overflow-x:auto;
   scrollbar-width: none;
 }
+
 .slider-books {
   position: relative;
   overscroll-behavior-x: auto;
