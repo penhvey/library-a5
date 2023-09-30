@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@import "main";
+
+.container {
+  margin-top: 2%;
+  .slideshow-container {
+    .mySlides {
+      width: 40%;
+      height: 60%;
+      background-color: #bbb;
+      margin-left: 30%;
+      margin-right: 20%;
+
+      img {
+        margin-left: 17%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+      }
+    }
+=======
+
+>>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
 @import "main";
 
 .container {
@@ -31,8 +55,47 @@
       background-color: rgba(0, 0, 0, 0.8);
     }
   }
+<<<<<<< HEAD
 
   h1 {
+=======
+  .mySlides > img{
+  margin-left:8%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  
+  } 
+  .mySlides {
+    width: 40%;
+    height: 60%;
+    background-color:#bbb;
+    margin-left: 40%;
+    margin-right: 20%;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  p{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    text-align: justify;
+  }
+  
+  h1{
+>>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
     text-align: center;
     margin-top: 2%;
 
@@ -84,11 +147,138 @@
       opacity: 1
     }
   }
+<<<<<<< HEAD
 
+=======
+=======
+} 
+.mySlides {
+  width: 40%;
+  height: 60%;
+  background-color:#bbb;
+  margin-left: 30%;
+  margin-right: 20%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+p{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  text-align: justify;
+}
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 2%;
+
+    strong {
+      color: orange;
+    }
+  }
+
+>>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
   p {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 2%;
     text-align: justify;
   }
+<<<<<<< HEAD
 }
+=======
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+
+<<<<<<< HEAD
+    to {
+      opacity: 1
+    }
+  }
+}
+=======
+}
+>>>>>>> 452df5f16b4e134adc4a7c164dd59abe2a9c27fa
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
+>>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1

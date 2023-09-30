@@ -5,101 +5,98 @@
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
-  margin-bottom: 2%;
 }
-
-.inform {
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4%;
+  color: rgb(8, 116, 116);
+  font-weight: bold;
+}
+nav .logo img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
+nav .inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
   color: rgb(8, 116, 116);
 }
 
-.logo {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-left: 4%;
-  color: rgb(8, 116, 116);
-  font-weight: bold;
-}
-
-.logo > img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
-
 footer {
   background-color: rgb(218, 213, 213);
   margin-top: 9%;
   height: 50vh;
+  padding-top: 50px;
 }
-
-.form-icons {
-  margin-left: 34%;
+footer .form-icons {
+  margin-left: 30%;
   font-size: 40px;
 }
-
-.form-icons > div {
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-.adress {
-  margin-top: 3%;
+footer .adress {
+  margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
 }
-
-.contact {
+footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
   margin-left: 9%;
   gap: 12%;
 }
-
-.email {
+footer .contact .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 4%;
   gap: 15%;
 }
-
-.email {
+footer .contact .phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-
-.phone-number {
+footer .contact .web-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-
-.web-gmail {
-  display: flex;
+footer .contact span {
+  gap: 10px;
 }
-
-.second-footer {
+footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
   margin-left: 45%;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
-
-.inform :hover {
+footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
-}
-
-.contact span {
-  gap: 10px;
 }
 
 .inform :hover {
@@ -149,7 +146,8 @@ a {
   border-radius: 0%;
   min-width: 105px;
   right: 3%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -172,13 +170,23 @@ a {
 }
 
 .container {
+<<<<<<< HEAD
+  margin-top: 2%;
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+=======
   height: 160vh;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
   /* Caption text */
   /* Fading animation */
 }
 .container .slideshow-container {
+<<<<<<< HEAD
+  /* Next & previous buttons */
+=======
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 .container .slideshow-container .mySlides {
   width: 40%;
@@ -188,6 +196,46 @@ a {
   margin-right: 20%;
 }
 .container .slideshow-container .mySlides img {
+<<<<<<< HEAD
+  margin-left: 10%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.container .slideshow-container .prev,
+.container .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+.container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.container .prev:hover,
+.container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+=======
   margin-left: 15%;
   margin-bottom: 4%;
   margin-top: 4%;
@@ -207,15 +255,20 @@ a {
 .container h1 strong {
   color: orange;
 }
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 .container .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .container .dot {
   cursor: pointer;
@@ -225,6 +278,7 @@ a {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 .container .active,
@@ -232,8 +286,23 @@ a {
   background-color: #717171;
 }
 .container .fade {
+<<<<<<< HEAD
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+=======
   animation-name: fade;
   animation-duration: 1.5s;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 @keyframes fade {
   from {
@@ -248,4 +317,8 @@ a {
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
+<<<<<<< HEAD
+}
+=======
 }/*# sourceMappingURL=Funny -Books.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8

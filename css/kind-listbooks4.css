@@ -8,10 +8,22 @@ nav {
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
-  width: 100%;
+  position: sticky;
+  top: 0px;
 }
-
-.inform {
+nav .logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 4%;
+  color: rgb(8, 116, 116);
+  font-weight: bold;
+}
+nav .logo img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
+nav .inform {
   display: flex;
   align-items: center;
   margin-left: 40%;
@@ -20,221 +32,53 @@ nav {
   color: rgb(8, 116, 116);
 }
 
-.logo {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-left: 4%;
-  color: rgb(8, 116, 116);
-  font-weight: bold;
-}
-
-.logo > img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
-
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-header h1 {
-  margin-top: 7%;
-  margin-left: 5.3%;
-  margin-bottom: 2%;
-  color: rgb(10, 107, 107);
-}
-
-.slider-books .history-book {
-  display: grid;
-  gap: 4%;
-  margin-left: 5.5%;
-  margin-bottom: 6%;
-  grid-template-columns: repeat(10, 1fr);
-  font-size: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.slider-books {
-  position: relative;
-}
-
-.slider-books .slide-button {
-  position: absolute;
-  top: 50%;
-  height: 50px;
-  width: 50px;
-  color: #f2f2f2;
-  border: none;
-  outline: none;
-  background-color: black;
-  border-radius: 50%;
-  transform: translateY(-50%);
-}
-
-.slider-books .slide-button:hover {
-  background: #444;
-}
-
-.slider-books .slide-button#prev-slide {
-  left: 0.5%;
-}
-
-.slider-books .slide-button#next-slide {
-  right: -5%;
-}
-
-.slider-books .history-book ::-webkit-scrollbar {
-  display: none;
-}
-
-.slider-books > .history-book > .image-list {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 200px;
-  height: 300px;
-}
-
-.slider-books {
-  max-width: 1200px;
-  width: 95%;
-}
-
 footer {
   background-color: rgb(218, 213, 213);
   margin-top: 9%;
   height: 50vh;
+  padding-top: 50px;
 }
-
-.form-icons {
-  margin-left: 34%;
+footer .form-icons {
+  margin-left: 30%;
   font-size: 40px;
 }
-
-.form-icons > div {
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-.adress {
-  margin-top: 3%;
+footer .adress {
+  margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
 }
-
-.contact {
+footer .contact {
   display: flex;
   font-size: 15px;
   margin-top: 5%;
   margin-left: 9%;
   gap: 12%;
 }
-
-.email {
+footer .contact .email {
   display: flex;
   gap: 4%;
+  gap: 15%;
 }
-
-.phone-number {
+footer .contact .phone-number {
   display: flex;
 }
-
-.web-gmail {
+footer .contact .web-gmail {
   display: flex;
 }
-
-.second-footer {
+footer .contact span {
+  gap: 10px;
+}
+footer .second-footer {
   margin-top: 3%;
+  margin-top: 2%;
   margin-left: 45%;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
-
-.inform :hover {
+footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
-}
-
-a {
-  color: rgb(6, 126, 126);
-  text-decoration: none;
 }
 
 .inform :hover {
@@ -304,4 +148,130 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.cover {
+  /* Caption text */
+  /* Fading animation */
+}
+.cover .slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+.cover .slideshow-container .prev,
+.cover .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.cover .slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.cover .slideshow-container .prev:hover,
+.cover .slideshow-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.cover .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.cover .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.cover .active,
+.cover .dot:hover {
+  background-color: #717171;
+}
+.cover .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header h1 {
+  margin-top: 7%;
+  margin-left: 5.3%;
+  margin-bottom: 2%;
+  color: rgb(10, 107, 107);
+}
+header .slider-books {
+  position: relative;
+  max-width: 1200px;
+  width: 95%;
+}
+header .slider-books .history-book {
+  display: grid;
+  gap: 4%;
+  margin-left: 5.5%;
+  margin-bottom: 6%;
+  grid-template-columns: repeat(10, 1fr);
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+header .slider-books .history-book .history-book ::-webkit-scrollbar {
+  display: none;
+}
+header .slider-books .history-book .image-list {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+header .slider-books .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: #f2f2f2;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+header .slider-books .slide-button .slide-button:hover {
+  background: #444;
+}
+header .slider-books .slide-button .slide-button#prev-slide {
+  left: 0.5%;
+}
+header .slider-books .slide-button .slide-button#next-slide {
+  right: -5%;
 }/*# sourceMappingURL=kind-listbooks4.css.map */
