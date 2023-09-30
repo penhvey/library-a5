@@ -169,105 +169,108 @@ a {
   display: block;
 }
 
-.about-us {
-  height: 210vh;
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark-color-lighten);
+  font-family: "Montserrat", sans-serif;
+  /* header{
+
+  } */
 }
-.about-us .color-gray {
-  background-color: rgb(202, 200, 200);
+body .cover {
+  position: relative;
+  font-family: sans-serif;
+  /*===== GOOGLE FONTS =====*/
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+  /*===== VARIABLES CSS =====*/
+  /*===== RESET =====*/
+}
+body .cover .text-block {
+  position: absolute;
+  border-radius: 5vh;
+  bottom: 35%;
+  height: 35vh;
+  width: 53%;
+  background-color: rgba(255, 255, 255, 0.719);
+  color: rgb(11, 203, 203);
+}
+body .cover .text-block h1 {
+  margin-top: 6%;
+  margin-left: 5%;
+}
+body .cover .text-block h1 span {
+  color: rgb(187, 124, 6);
+}
+body .cover .text-block h1 p {
+  margin-top: 2%;
+  margin-left: 5%;
+  color: rgb(0, 0, 0);
+}
+body .cover .second-block {
+  position: absolute;
+  bottom: 20%;
+}
+body .cover .second-block button {
+  margin-left: 25%;
+  color: rgba(255, 255, 255, 0.847);
+  font-weight: bold;
+  border-radius: 20vh;
+  height: 6vh;
+  width: 120px;
+  border: none;
+  background-color: rgb(9, 90, 90);
+}
+body .cover :root {
+  --dark-color-lighten: #f2f5ff;
+  --red-card: #a62121;
+  --blue-card: #4bb7e6;
+  --btn: #141414;
+  --btn-hover: #3a3a3a;
+  --text: #fbf7f7;
+}
+body .cover *,
+body .cover ::before,
+body .cover ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body header .open-time h1 {
+  margin-top: 5%;
+  margin-left: 35%;
+  font-size: 60px;
+  color: rgb(3, 82, 82);
+}
+body header .open-time h1 span {
+  color: rgb(206, 134, 0);
+}
+body header .open-time p {
+  color: rgba(0, 0, 0, 0.437);
+  margin-top: 2%;
+  margin-left: 24%;
+}
+body .date-time {
+  margin-top: 12%;
+  margin-left: 6%;
+}
+body .date-time .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 10vh;
-  width: 80%;
-  margin-left: 20vh;
-  margin-top: 10vh;
-}
-.about-us .color-gray button {
-  background: teal;
-  color: white;
-  height: 9vh;
-  width: 45%;
-  border: 1px teal;
-  margin-left: 48%;
-  margin-top: -50px;
-}
-.about-us .color-gray .about-us p {
-  background-color: rgb(164, 214, 214);
-  width: 80%;
-  height: 30vh;
-  margin-left: 9%;
-  padding-left: 15px;
-  margin-top: 10vh;
+  font-size: 30px;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 10px 10px 10px 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  gap: 20%;
 }
-.about-us .color-gray iframe {
-  width: 100%;
-  margin-top: 10.7%;
+body .date-time .date p span {
+  color: rgba(231, 13, 13, 0.756);
 }
-.about-us .color-gray a {
-  color: rgb(6, 126, 126);
-  text-decoration: none;
-}
-.about-us .color-gray a {
-  color: rgb(6, 126, 126);
-  text-decoration: none;
-}
-.about-us .color-gray .inform :hover {
-  color: rgb(229, 135, 4);
-  font-weight: bold;
-}
-.about-us .color-gray h1 {
-  margin-top: -60px;
-  color: teal;
-}
-.about-us .contact-me button {
-  background: teal;
-  color: white;
-  height: 9vh;
-  width: 45%;
-  border: 1px teal;
-  margin-left: 48%;
-  margin-top: -50px;
-}
-.about-us p {
-  background-color: rgb(164, 214, 214);
-  width: 80%;
-  height: 30vh;
-  margin-left: 9%;
-  padding-left: 15px;
-  margin-top: 10vh;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 10px 10px 10px 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.about-us iframe {
-  width: 100%;
-  margin-top: 8%;
-  height: 470px;
+body .date-time .date .vl {
+  border: 1px solid rgba(0, 0, 0, 0.361);
+  height: 60px;
 }
