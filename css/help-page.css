@@ -434,9 +434,6 @@ header h1 {
   font-size: 70px;
   color: rgb(0, 66, 66);
   font-weight: bolder;
-<<<<<<< HEAD
-}
-=======
 }
 
 .example .first {
@@ -487,5 +484,4 @@ header h1 {
 
 .example .third div :hover {
   color: #bc7b09;
-}/*# sourceMappingURL=help-page.css.map */
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
+}

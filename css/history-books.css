@@ -170,22 +170,10 @@ a {
 }
 
 .container {
+  height: 160vh;
   margin-top: 2%;
-  /* Position the "next button" to the right */
-  /* On hover, add a black background color with a little bit see-through */
   /* Caption text */
   /* Fading animation */
-}
-<<<<<<< HEAD
-.container .slideshow-container {
-  /* Next & previous buttons */
-=======
-
-.mySlides > img {
-  margin-left: 5%;
-  margin-bottom: 4%;
-  margin-top: 4%;
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 .container .slideshow-container .mySlides {
   width: 40%;
@@ -199,25 +187,6 @@ a {
   margin-bottom: 4%;
   margin-top: 4%;
 }
-.container .slideshow-container .prev,
-.container .slideshow-container .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
 .container h1 {
   text-align: center;
   margin-top: 2%;
@@ -230,14 +199,6 @@ a {
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
-}
-.container .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.container .prev:hover,
-.container .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
 }
 .container .text {
   color: #f2f2f2;
