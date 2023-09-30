@@ -228,21 +228,27 @@ a {
   margin-top: 20px;
   gap: 5%;
 }
+.container .form-container .register .form-group1 input {
+  padding-left: 20px;
+}
 .container .form-container .register .form-group1 input[type=pay] {
   width: 400px;
   height: 50px;
   margin-left: 20px;
 }
 .container .form-container .register .form-group1 .selection select {
-  width: 150px;
+  width: 175px;
   height: 54px;
   padding: 10px;
 }
+.container .form-container .register .form-group-btn {
+  padding-left: 20px;
+}
 .container .form-container .register .form-group-btn button {
-  width: 100%;
+  width: 97%;
   height: 50px;
   padding: 10px 25px;
-  margin-top: 50px;
+  margin-top: 70px;
   border: none;
   cursor: pointer;
   background: green;
