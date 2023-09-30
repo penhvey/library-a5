@@ -5,8 +5,6 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -14,13 +12,9 @@ nav {
   top: 0px;
 }
 nav .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -30,12 +24,8 @@ nav .logo img {
   border-radius: 50%;
 }
 nav .inform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -58,8 +48,6 @@ footer .adress {
   color: rgba(0, 0, 0, 0.351);
 }
 footer .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -67,20 +55,14 @@ footer .contact {
   gap: 12%;
 }
 footer .contact .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 footer .contact .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 footer .contact .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 footer .contact span {
@@ -146,8 +128,7 @@ a {
   border-radius: 0%;
   min-width: 105px;
   right: 3%;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -167,4 +148,4 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+}/*# sourceMappingURL=main.css.map */
