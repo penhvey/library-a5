@@ -170,14 +170,23 @@ a {
 }
 
 .container {
+<<<<<<< HEAD
   margin-top: 2%;
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
+=======
+  height: 160vh;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
   /* Caption text */
   /* Fading animation */
 }
 .container .slideshow-container {
+<<<<<<< HEAD
   /* Next & previous buttons */
+=======
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 .container .slideshow-container .mySlides {
   width: 40%;
@@ -187,6 +196,7 @@ a {
   margin-right: 20%;
 }
 .container .slideshow-container .mySlides img {
+<<<<<<< HEAD
   margin-left: 10%;
   margin-bottom: 4%;
   margin-top: 4%;
@@ -225,6 +235,27 @@ a {
 .container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+=======
+  margin-left: 15%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.container .slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.container .slideshow-container .prev:hover,
+.container .slideshow-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 .container .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -255,6 +286,7 @@ a {
   background-color: #717171;
 }
 .container .fade {
+<<<<<<< HEAD
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -267,6 +299,10 @@ a {
   to {
     opacity: 1;
   }
+=======
+  animation-name: fade;
+  animation-duration: 1.5s;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 @keyframes fade {
   from {
@@ -281,4 +317,8 @@ a {
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
+<<<<<<< HEAD
 }
+=======
+}/*# sourceMappingURL=Funny -Books.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8

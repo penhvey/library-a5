@@ -176,8 +176,16 @@ a {
   /* Caption text */
   /* Fading animation */
 }
+<<<<<<< HEAD
 .container .slideshow-container {
   /* Next & previous buttons */
+=======
+
+.mySlides > img {
+  margin-left: 5%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 .container .slideshow-container .mySlides {
   width: 40%;

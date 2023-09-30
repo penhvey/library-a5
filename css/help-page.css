@@ -423,7 +423,7 @@ header {
   display: flex;
   position: absolute;
   top: 20%;
-  bottom: 80%;
+  bottom: 40%;
   margin-left: 10%;
 }
 
@@ -434,4 +434,58 @@ header h1 {
   font-size: 70px;
   color: rgb(0, 66, 66);
   font-weight: bolder;
+<<<<<<< HEAD
 }
+=======
+}
+
+.example .first {
+  top: 30%;
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  background-color: rgba(244, 234, 234, 0.743);
+}
+
+.example .second {
+  top: 85%;
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  background-color: rgba(244, 234, 234, 0.684);
+}
+
+.example .third {
+  top: 140%;
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  background-color: rgba(244, 234, 234, 0.628);
+}
+
+.first div > h3, .second div > h3, .third div > h3 {
+  font-size: 30px;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: rgb(2, 96, 96);
+}
+
+.first div p, .second div p, .third div p {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.example .first div :hover {
+  color: #bc7b09;
+}
+
+.example .second div :hover {
+  color: #bc7b09;
+}
+
+.example .third div :hover {
+  color: #bc7b09;
+}/*# sourceMappingURL=help-page.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8

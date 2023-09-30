@@ -170,6 +170,7 @@ a {
 }
 
 .container {
+<<<<<<< HEAD
   height: 188vh;
 }
 .container .form-container {
@@ -254,3 +255,82 @@ a {
   background: green;
   color: #fff;
 }
+=======
+  height: 160vh;
+  /* Caption text */
+  /* Fading animation */
+}
+.container .slideshow-container {
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+.container .slideshow-container .mySlides {
+  width: 40%;
+  height: 60%;
+  background-color: #bbb;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+.container .slideshow-container .mySlides img {
+  margin-left: 15%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.container .slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.container .slideshow-container .prev:hover,
+.container .slideshow-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+.container .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.container .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.container .active,
+.container .dot:hover {
+  background-color: #717171;
+}
+.container .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  text-align: justify;
+}/*# sourceMappingURL=donate.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8

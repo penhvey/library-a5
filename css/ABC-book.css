@@ -173,12 +173,20 @@ a {
   height: 160vh;
   /* Caption text */
   /* Fading animation */
+<<<<<<< HEAD
 }
 .container .slideshow-container {
   margin-top: 2%;
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
 }
+=======
+}
+.container .slideshow-container {
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 .container .slideshow-container .mySlides {
   width: 40%;
   height: 60%;
@@ -187,7 +195,11 @@ a {
   margin-right: 20%;
 }
 .container .slideshow-container .mySlides img {
+<<<<<<< HEAD
   margin-left: 17%;
+=======
+  margin-left: 15%;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
   margin-bottom: 4%;
   margin-top: 4%;
 }
@@ -236,6 +248,7 @@ a {
   background-color: #717171;
 }
 .container .fade {
+<<<<<<< HEAD
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -248,6 +261,10 @@ a {
   to {
     opacity: 1;
   }
+=======
+  animation-name: fade;
+  animation-duration: 1.5s;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 @keyframes fade {
   from {
@@ -260,5 +277,11 @@ a {
 .container p {
   margin-left: 15%;
   margin-right: 15%;
+<<<<<<< HEAD
   text-align: justify;
 }
+=======
+  margin-top: 2%;
+  text-align: justify;
+}/*# sourceMappingURL=ABC-book.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
