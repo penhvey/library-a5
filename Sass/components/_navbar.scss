@@ -1,12 +1,13 @@
-
 @import"./responsive";
 
 nav {
     display: flex;
-    height: 12vh;
+    height: 8vh;
     background-color: rgb(218, 213, 213);
     position: sticky;
-    top: 0px;
+    top: 0;
+    margin-bottom: 6%;
+    margin-top: 0;
 
     .logo {
         display: flex;
@@ -20,7 +21,13 @@ nav {
             border-radius: 50%;
         }
     }
-
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+            font-size: 7px;
+        }
+    }
     .inform {
         display: flex;
         align-items: center;
@@ -29,11 +36,14 @@ nav {
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
-
-    @include responsive('Mobile') {
-        .inform {
-            gap: 10%;
-            margin-inline: 20%;
-        }
+}
+@include responsive('Mobile') {
+    .inform {
+        gap: 5px;
+        margin-inline: 20px;
+        font-size: 7px;
     }
 }
+
+
+
