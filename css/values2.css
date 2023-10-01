@@ -277,6 +277,16 @@ a {
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: -8%;
+}
+
+h1 {
+  color: #056b72;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .ag-courses_box {
@@ -410,4 +420,57 @@ body {
   .ag-courses-item_date-box {
     font-size: 16px;
   }
+<<<<<<< HEAD
 }
+=======
+}
+footer {
+  background-color: rgb(218, 213, 213);
+  margin-top: 9%;
+  height: 50vh;
+}
+
+.form-icons {
+  margin-left: 34%;
+  font-size: 40px;
+}
+
+.form-icons > div {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.adress {
+  margin-top: 3%;
+  margin-left: 26%;
+  color: rgba(0, 0, 0, 0.351);
+}
+
+.contact {
+  display: flex;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 9%;
+  gap: 12%;
+}
+
+.email {
+  display: flex;
+  gap: 4%;
+}
+
+.phone-number {
+  display: flex;
+}
+
+.web-gmail {
+  display: flex;
+}
+
+.second-footer {
+  margin-top: 3%;
+  margin-left: 45%;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.372);
+}/*# sourceMappingURL=values2.css.map */
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a

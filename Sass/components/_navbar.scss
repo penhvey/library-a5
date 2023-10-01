@@ -2,11 +2,17 @@
 
 nav {
     display: flex;
-    height: 12vh;
+    height: 8vh;
     background-color: rgb(218, 213, 213);
     position: sticky;
+<<<<<<< HEAD
     top: 0px;
     // margin-bottom: 2%;
+=======
+    top: 0;
+    margin-bottom: 6%;
+    margin-top: 0;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
     .logo {
         display: flex;
@@ -20,7 +26,17 @@ nav {
         //     border-radius: 50%;
         // }
     }
+<<<<<<< HEAD
 
+=======
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+            font-size: 7px;
+        }
+    }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
     .inform {
         display: flex;
         align-items: center;
@@ -29,6 +45,7 @@ nav {
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
+<<<<<<< HEAD
 
     @include responsive('Mobile') {
         .inform {
@@ -36,6 +53,17 @@ nav {
             margin-inline: 20%;
         }
     }
+=======
+}
+@include responsive('Mobile') {
+    .inform {
+        gap: 5px;
+        margin-inline: 20px;
+        font-size: 7px;
+    }
+}
+
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
 
 }
