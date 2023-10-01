@@ -25,10 +25,6 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
-nav .logo img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
 nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,10 +32,16 @@ nav .inform {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 40%;
-  gap: 18%;
+  margin-left: 55%;
+  gap: 20px;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
@@ -52,10 +54,21 @@ footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
+@media screen and (max-width: 620px) {
+  footer .form-icons {
+    margin-inline: 20%;
+  }
+}
 footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
+}
+@media screen and (max-width: 620px) {
+  footer .adress {
+    margin-inline: 12%;
+    padding-top: 3%;
+  }
 }
 footer .contact {
   display: -webkit-box;
@@ -86,6 +99,12 @@ footer .contact .web-gmail {
 footer .contact span {
   gap: 10px;
 }
+@media screen and (max-width: 620px) {
+  footer .contact {
+    margin-inline: 20px;
+    padding-top: 3%;
+  }
+}
 footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
@@ -93,12 +112,23 @@ footer .second-footer {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
+@media screen and (max-width: 620px) {
+  footer .second-footer {
+    margin-inline: 35%;
+    padding-top: 3%;
+  }
+}
 footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
 }
 
+@media screen and (max-width: 620px) {
+  footer {
+    padding-top: 5%;
+  }
+}
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -188,54 +218,21 @@ a {
   margin-left: 20vh;
   margin-top: 10vh;
 }
-.about-us .color-gray button {
-  background: teal;
-  color: white;
-  height: 9vh;
-  width: 45%;
-  border: 1px teal;
-  margin-left: 48%;
-  margin-top: -50px;
-}
-.about-us .color-gray .about-us p {
-  background-color: rgb(164, 214, 214);
-  width: 80%;
-  height: 30vh;
-  margin-left: 9%;
-  padding-left: 15px;
-  margin-top: 10vh;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 10px 10px 10px 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.about-us .color-gray iframe {
-  width: 100%;
-  margin-top: 10.7%;
-}
-.about-us .color-gray a {
-  color: rgb(6, 126, 126);
-  text-decoration: none;
-}
-.about-us .color-gray a {
-  color: rgb(6, 126, 126);
-  text-decoration: none;
-}
-.about-us .color-gray .inform :hover {
-  color: rgb(229, 135, 4);
-  font-weight: bold;
-}
 .about-us .color-gray h1 {
   margin-top: -60px;
   color: teal;
+}
+@media screen and (max-width: 620px) {
+  .about-us .color-gray h1 {
+    font: 1.1em sans-serif;
+  }
+}
+@media screen and (max-width: 620px) {
+  .about-us .color-gray {
+    width: 70%;
+    height: 9vh;
+    margin-left: 30px;
+  }
 }
 .about-us .contact-me button {
   background: teal;
@@ -245,6 +242,11 @@ a {
   border: 1px teal;
   margin-left: 48%;
   margin-top: -50px;
+}
+@media screen and (max-width: 620px) {
+  .about-us .contact-me {
+    margin-bottom: 50px;
+  }
 }
 .about-us p {
   background-color: rgb(164, 214, 214);
@@ -268,6 +270,16 @@ a {
 }
 .about-us iframe {
   width: 100%;
-  margin-top: 8%;
-  height: 470px;
+  margin-top: 10.7%;
+}
+@media screen and (max-width: 620px) {
+  .about-us iframe {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-us {
+    height: 110vh;
+  }
 }

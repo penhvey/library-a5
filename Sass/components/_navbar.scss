@@ -1,11 +1,13 @@
+@import"./responsive";
+
 nav {
     display: flex;
     height: 12vh;
     background-color: rgb(218, 213, 213);
     position: sticky;
     top: 0px;
-
     // margin-bottom: 2%;
+
     .logo {
         display: flex;
         justify-items: center;
@@ -13,20 +15,27 @@ nav {
         margin-left: 4%;
         color: rgb(8, 116, 116);
         font-weight: bold;
-        img {
-            border: 2px solid rgb(16, 92, 92);
-            border-radius: 50%;
-        }
+        // img {
+        //     border: 2px solid rgb(16, 92, 92);
+        //     border-radius: 50%;
+        // }
     }
+
     .inform {
         display: flex;
         align-items: center;
-        margin-left: 40%;
-        gap: 18%;
+        margin-left: 55%;
+        gap: 20px;
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
+
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+        }
+    }
+
+
 }
-
-
-

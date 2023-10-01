@@ -25,10 +25,6 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
-nav .logo img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
 nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,10 +32,16 @@ nav .inform {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 40%;
-  gap: 18%;
+  margin-left: 55%;
+  gap: 20px;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
@@ -52,10 +54,21 @@ footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
+@media screen and (max-width: 620px) {
+  footer .form-icons {
+    margin-inline: 20%;
+  }
+}
 footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
+}
+@media screen and (max-width: 620px) {
+  footer .adress {
+    margin-inline: 12%;
+    padding-top: 3%;
+  }
 }
 footer .contact {
   display: -webkit-box;
@@ -86,6 +99,12 @@ footer .contact .web-gmail {
 footer .contact span {
   gap: 10px;
 }
+@media screen and (max-width: 620px) {
+  footer .contact {
+    margin-inline: 20px;
+    padding-top: 3%;
+  }
+}
 footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
@@ -93,12 +112,23 @@ footer .second-footer {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
+@media screen and (max-width: 620px) {
+  footer .second-footer {
+    margin-inline: 35%;
+    padding-top: 3%;
+  }
+}
 footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
 }
 
+@media screen and (max-width: 620px) {
+  footer {
+    padding-top: 5%;
+  }
+}
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -175,6 +205,7 @@ a {
   /* Fading animation */
 }
 .container .slideshow-container {
+  margin-top: 20px;
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
 }

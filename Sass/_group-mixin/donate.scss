@@ -1,189 +1,139 @@
 @import "main";
+@import "../components/responsive.scss";
 
-<<<<<<< HEAD
 // register
 .container {
-    height: 188vh;
+  height: 188vh;
 
-    .form-container {
-        margin-top: 20px;
+  .form-container {
+    margin-top: 20px;
 
-        .form-title {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: teal;
-        }
-
-        p {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .register {
-            border: 1px solid #000;
-            border-radius: 10px 10px 10px 10px;
-            width: 50%;
-            height: 530px;
-            margin-top: 30px;
-            margin-left: 340px;
-            padding: 20px;
-            background: rgba(220, 220, 220, 0.959);
-
-            .form-group {
-                padding: 20px;
-
-                input[type="text"] {
-                    width: 49%;
-                    height: 50px;
-                }
-
-                input[type="password"],
-                input[type="email"] {
-                    width: 99.5%;
-                    height: 50px;
-
-                }
-            }
-
-            .form-group1 {
-                display: flex;
-                margin-top: 20px;
-                gap: 5%;
-
-                input {
-                    padding-left: 20px;
-                }
-
-                input[type="pay"] {
-                    width: 400px;
-                    height: 50px;
-                    margin-left: 20px;
-
-                }
-
-                .selection {
-                    select {
-                        width: 175px;
-                        height: 54px;
-                        padding: 10px;
-
-
-                    }
-                }
-            }
-
-            .form-group-btn {
-                padding-left: 20px;
-
-                button {
-                    width: 97%;
-                    height: 50px;
-                    padding: 10px 25px;
-                    margin-top: 70px;
-                    border: none;
-                    cursor: pointer;
-                    background: green;
-                    color: #fff;
-                    // border-radius: 25px;
-                }
-            }
-
-        }
+    .form-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: teal;
     }
-=======
-.container {
-  height: 160vh;
 
-  .slideshow-container {
-    .mySlides {
-      width: 40%;
-      height: 60%;
-      background-color: #bbb;
-      margin-left: 30%;
-      margin-right: 20%;
-
-      img {
-        margin-left: 15%;
-        margin-bottom: 4%;
-        margin-top: 4%;
-
+    @include responsive('Mobile') {
+      .form-title {
+        margin-left: 30%;
       }
     }
 
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
     }
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-  }
-
-  h1 {
-    text-align: center;
-    margin-top: 2%;
-
-    strong {
-      color: orange;
-    }
-  }
-
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-  }
-
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-
-  .active,
-  .dot:hover {
-    background-color: #717171;
-  }
-
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
-
-  @keyframes fade {
-    from {
-      opacity: .4
+    @include responsive ('Mobile') {
+      p {
+        margin-left: 30%;
+      }
     }
 
-    to {
-      opacity: 1
+    .register {
+      border: 1px solid #000;
+      border-radius: 10px 10px 10px 10px;
+      width: 50%;
+      height: 600px;
+      margin-top: 50px;
+      margin-left: 340px;
+      padding: 30px;
+      background: rgba(220, 220, 220, 0.959);
+
+      .form-group {
+        padding: 20px;
+
+        input[type="text"] {
+          width: 49%;
+          height: 50px;
+          margin-top: 20px;
+        }
+
+        @include responsive ('Mobile') {
+          input[type="text"] {
+            width: 100%;
+            // gap: 5%;
+          }
+        }
+
+        input[type="password"],
+        input[type="email"] {
+          width: 99.5%;
+          height: 50px;
+
+        }
+      }
+
+      .form-group1 {
+        display: flex;
+        margin-top: 20px;
+        gap: 5%;
+
+        input {
+          padding-left: 20px;
+        }
+
+        input[type="pay"] {
+          width: 470px;
+          height: 50px;
+          margin-left: 20px;
+        }
+
+        @include responsive ('Mobile') {
+          input[type="pay"] {
+            width: 240px;
+          }
+        }
+
+        .selection {
+          select {
+            width: 175px;
+            height: 54px;
+            padding: 10px;
+          }
+
+          @include responsive ('Mobile') {
+            select {
+              width: 100px;
+            }
+          }
+        }
+      }
+
+      .form-group-btn {
+        padding-left: 20px;
+
+        button {
+          width: 97%;
+          height: 50px;
+          padding: 10px 25px;
+          margin-top: 70px;
+          border: none;
+          cursor: pointer;
+          background: green;
+          color: #fff;
+          // border-radius: 25px;
+        }
+      }
+    }
+
+    @include responsive('Mobile') {
+      .register {
+        height: 600px;
+        margin-top: 10%;
+      }
     }
   }
-
-  p {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
-    text-align: justify;
+  @include responsive ('Mobile') {
+    .form-container {
+      margin-inline: -33%;
+      width: 120%;
+      padding-top: 5%;
+    }
   }
 }
+

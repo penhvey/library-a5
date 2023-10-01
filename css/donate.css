@@ -25,10 +25,6 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
-nav .logo img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
 nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,10 +32,16 @@ nav .inform {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 40%;
-  gap: 18%;
+  margin-left: 55%;
+  gap: 20px;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
@@ -52,10 +54,21 @@ footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
+@media screen and (max-width: 620px) {
+  footer .form-icons {
+    margin-inline: 20%;
+  }
+}
 footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
+}
+@media screen and (max-width: 620px) {
+  footer .adress {
+    margin-inline: 12%;
+    padding-top: 3%;
+  }
 }
 footer .contact {
   display: -webkit-box;
@@ -86,6 +99,12 @@ footer .contact .web-gmail {
 footer .contact span {
   gap: 10px;
 }
+@media screen and (max-width: 620px) {
+  footer .contact {
+    margin-inline: 20px;
+    padding-top: 3%;
+  }
+}
 footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
@@ -93,12 +112,23 @@ footer .second-footer {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
+@media screen and (max-width: 620px) {
+  footer .second-footer {
+    margin-inline: 35%;
+    padding-top: 3%;
+  }
+}
 footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
 }
 
+@media screen and (max-width: 620px) {
+  footer {
+    padding-top: 5%;
+  }
+}
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -170,7 +200,6 @@ a {
 }
 
 .container {
-<<<<<<< HEAD
   height: 188vh;
 }
 .container .form-container {
@@ -188,6 +217,11 @@ a {
           justify-content: center;
   color: teal;
 }
+@media screen and (max-width: 620px) {
+  .container .form-container .form-title {
+    margin-left: 30%;
+  }
+}
 .container .form-container p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,14 +234,19 @@ a {
           justify-content: center;
   margin-top: 20px;
 }
+@media screen and (max-width: 620px) {
+  .container .form-container p {
+    margin-left: 30%;
+  }
+}
 .container .form-container .register {
   border: 1px solid #000;
   border-radius: 10px 10px 10px 10px;
   width: 50%;
-  height: 530px;
-  margin-top: 30px;
+  height: 600px;
+  margin-top: 50px;
   margin-left: 340px;
-  padding: 20px;
+  padding: 30px;
   background: rgba(220, 220, 220, 0.959);
 }
 .container .form-container .register .form-group {
@@ -216,6 +255,12 @@ a {
 .container .form-container .register .form-group input[type=text] {
   width: 49%;
   height: 50px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 620px) {
+  .container .form-container .register .form-group input[type=text] {
+    width: 100%;
+  }
 }
 .container .form-container .register .form-group input[type=password],
 .container .form-container .register .form-group input[type=email] {
@@ -233,14 +278,24 @@ a {
   padding-left: 20px;
 }
 .container .form-container .register .form-group1 input[type=pay] {
-  width: 400px;
+  width: 470px;
   height: 50px;
   margin-left: 20px;
+}
+@media screen and (max-width: 620px) {
+  .container .form-container .register .form-group1 input[type=pay] {
+    width: 240px;
+  }
 }
 .container .form-container .register .form-group1 .selection select {
   width: 175px;
   height: 54px;
   padding: 10px;
+}
+@media screen and (max-width: 620px) {
+  .container .form-container .register .form-group1 .selection select {
+    width: 100px;
+  }
 }
 .container .form-container .register .form-group-btn {
   padding-left: 20px;
@@ -255,82 +310,16 @@ a {
   background: green;
   color: #fff;
 }
-=======
-  height: 160vh;
-  /* Caption text */
-  /* Fading animation */
-}
-.container .slideshow-container {
-  /* Position the "next button" to the right */
-  /* On hover, add a black background color with a little bit see-through */
-}
-.container .slideshow-container .mySlides {
-  width: 40%;
-  height: 60%;
-  background-color: #bbb;
-  margin-left: 30%;
-  margin-right: 20%;
-}
-.container .slideshow-container .mySlides img {
-  margin-left: 15%;
-  margin-bottom: 4%;
-  margin-top: 4%;
-}
-.container .slideshow-container .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.container .slideshow-container .prev:hover,
-.container .slideshow-container .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.container h1 {
-  text-align: center;
-  margin-top: 2%;
-}
-.container h1 strong {
-  color: orange;
-}
-.container .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-}
-.container .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.container .active,
-.container .dot:hover {
-  background-color: #717171;
-}
-.container .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
+@media screen and (max-width: 620px) {
+  .container .form-container .register {
+    height: 600px;
+    margin-top: 10%;
   }
 }
-.container p {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 2%;
-  text-align: justify;
-}/*# sourceMappingURL=donate.css.map */
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
+@media screen and (max-width: 620px) {
+  .container .form-container {
+    margin-inline: -33%;
+    width: 120%;
+    padding-top: 5%;
+  }
+}

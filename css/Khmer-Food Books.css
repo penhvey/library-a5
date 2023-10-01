@@ -14,23 +14,8 @@ nav {
   top: 0px;
 }
 nav .logo {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
-=======
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-left: 4%;
-  color: rgb(8, 116, 116);
-  font-weight: bold;
-}
-nav .logo img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
-nav .inform {
->>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
   display: flex;
   justify-items: center;
   -webkit-box-align: center;
@@ -40,10 +25,6 @@ nav .inform {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
-nav .logo img {
-  border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
-}
 nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,10 +32,16 @@ nav .inform {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 40%;
-  gap: 18%;
+  margin-left: 55%;
+  gap: 20px;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
@@ -67,17 +54,25 @@ footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
+@media screen and (max-width: 620px) {
+  footer .form-icons {
+    margin-inline: 20%;
+  }
+}
 footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
 }
+@media screen and (max-width: 620px) {
+  footer .adress {
+    margin-inline: 12%;
+    padding-top: 3%;
+  }
+}
 footer .contact {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
-=======
->>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -85,17 +80,13 @@ footer .contact {
   gap: 12%;
 }
 footer .contact .email {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
-=======
->>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 footer .contact .phone-number {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,15 +94,16 @@ footer .contact .phone-number {
 footer .contact .web-gmail {
   display: -webkit-box;
   display: -ms-flexbox;
-=======
-  display: flex;
-}
-footer .contact .web-gmail {
->>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
   display: flex;
 }
 footer .contact span {
   gap: 10px;
+}
+@media screen and (max-width: 620px) {
+  footer .contact {
+    margin-inline: 20px;
+    padding-top: 3%;
+  }
 }
 footer .second-footer {
   margin-top: 3%;
@@ -120,12 +112,23 @@ footer .second-footer {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
+@media screen and (max-width: 620px) {
+  footer .second-footer {
+    margin-inline: 35%;
+    padding-top: 3%;
+  }
+}
 footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
 }
 
+@media screen and (max-width: 620px) {
+  footer {
+    padding-top: 5%;
+  }
+}
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -202,17 +205,18 @@ a {
   /* Fading animation */
 }
 .container .slideshow-container {
+  margin-top: 20px;
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
 }
-.container .slideshow-container .mySlides {
+.container .slideshow-container a .mySlides {
   width: 40%;
   height: 60%;
   background-color: #bbb;
   margin-left: 30%;
   margin-right: 20%;
 }
-.container .slideshow-container .mySlides img {
+.container .slideshow-container a .mySlides img {
   margin-left: 15%;
   margin-bottom: 4%;
   margin-top: 4%;
