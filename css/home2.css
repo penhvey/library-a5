@@ -407,16 +407,16 @@ a {
 @media screen and (max-width: 620px) {
   nav {
     display: flex;
-    height: 4vh;
+    height: 8vh;
     width: 100%;
     background-color: rgb(218, 213, 213);
   }
   .inform {
     display: flex;
     align-items: center;
-    margin-left: 35%;
+    margin-left: 19%;
     gap: 6%;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: bold;
     color: rgb(8, 116, 116);
   }
@@ -433,11 +433,14 @@ a {
     border-radius: 20%;
   }
   .logo > span {
-    font-size: 6px;
+    font-size: 8px;
   }
   .cover {
     position: relative;
     font-family: sans-serif;
+  }
+  .cover img {
+    height: 30vh;
   }
   .text-block {
     position: absolute;
@@ -464,7 +467,7 @@ a {
     height: 2vh;
   }
   header {
-    height: 45vh;
+    height: 30vh;
   }
   .date-time {
     display: flex;
@@ -482,7 +485,7 @@ a {
     margin-right: 5%;
   }
   .date .vl {
-    height: 28vh;
+    height: 15vh;
   }
   footer {
     height: 160px;
@@ -497,8 +500,11 @@ a {
     margin-right: -6%;
   }
   footer .second-footer p {
-    font-size: 5px;
+    font-size: 4px;
     margin-top: 18%;
     margin-left: -12%;
+  }
+  footer .date p {
+    font-size: 8px;
   }
 }/*# sourceMappingURL=home2.css.map */
