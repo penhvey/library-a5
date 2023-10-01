@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 nav {
   display: flex;
   height: 12vh;
@@ -31,6 +25,15 @@ nav .inform {
   font-weight: bold;
   color: rgb(8, 116, 116);
 }
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
+}
+>>>>>>> 67e74987e9401f515f11f4a924fff79eb4e946f3
 
 footer {
   background-color: rgb(218, 213, 213);
@@ -79,6 +82,12 @@ footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 .inform :hover {
