@@ -402,4 +402,103 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 620px) {
+  nav {
+    display: flex;
+    height: 4vh;
+    width: 100%;
+    background-color: rgb(218, 213, 213);
+  }
+  .inform {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    gap: 6%;
+    font-size: 6px;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
+  }
+  .logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 4%;
+    color: rgb(8, 116, 116);
+    font-weight: bold;
+  }
+  .logo > img {
+    border: 1px solid rgb(16, 92, 92);
+    border-radius: 20%;
+  }
+  .logo > span {
+    font-size: 6px;
+  }
+  .cover {
+    position: relative;
+    font-family: sans-serif;
+  }
+  .text-block {
+    position: absolute;
+    border-radius: 1.5vh;
+    margin-left: 5%;
+    bottom: 35%;
+    height: 8vh;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.719);
+    color: rgb(11, 203, 203);
+  }
+  .cover h1 {
+    font-size: 7px;
+    margin-left: 4%;
+  }
+  .cover p {
+    font-size: 5px;
+    margin-left: 4%;
+  }
+  .cover button {
+    font-size: 4px;
+    border-radius: 0.7vh;
+    width: 40px;
+    height: 2vh;
+  }
+  header {
+    height: 45vh;
+  }
+  .date-time {
+    display: flex;
+  }
+  .open-time h1 {
+    font-size: 40px;
+    margin-left: 25%;
+  }
+  .open-time p {
+    font-size: 6px;
+    margin-left: 22%;
+  }
+  .date p {
+    font-size: 20px;
+    margin-right: 5%;
+  }
+  .date .vl {
+    height: 28vh;
+  }
+  footer {
+    height: 160px;
+  }
+  footer .form-icons {
+    font-size: 30px;
+    margin-left: 25%;
+    padding-top: 4%;
+  }
+  footer .adress, footer .contact, footer .phone-number, footer .web-gmail {
+    font-size: 5px;
+    margin-right: -6%;
+  }
+  footer .second-footer p {
+    font-size: 5px;
+    margin-top: 18%;
+    margin-left: -12%;
+  }
 }/*# sourceMappingURL=home2.css.map */

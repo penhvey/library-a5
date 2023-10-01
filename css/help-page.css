@@ -27,12 +27,9 @@ nav .inform {
   display: flex;
   align-items: center;
   margin-left: 40%;
-  gap: 15%;
+  gap: 18%;
   font-weight: bold;
   color: rgb(8, 116, 116);
-}
-.submit {
-  background-color: aliceblue;
 }
 
 footer {
@@ -301,6 +298,15 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+nav .inform {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  gap: 15%;
+  font-weight: bold;
+  color: rgb(8, 116, 116);
 }
 
 .dropdown {

@@ -274,4 +274,13 @@ header .slider-books .slide-button .slide-button#prev-slide {
 }
 header .slider-books .slide-button .slide-button#next-slide {
   right: -5%;
+}
+
+nav .inform {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  gap: 15%;
+  font-weight: bold;
+  color: rgb(8, 116, 116);
 }/*# sourceMappingURL=kind-listbooks3.css.map */
