@@ -1,4 +1,6 @@
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -7,13 +9,19 @@ nav {
   margin-bottom: 2%;
 }
 nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
+<<<<<<< HEAD
+=======
 nav .logo img {
   border: 2px solid rgb(16, 92, 92);
   border-radius: 50%;
@@ -25,13 +33,24 @@ nav .logo img {
     font-size: 7px;
   }
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 nav .inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  margin-left: 40%;
-  gap: 18%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 55%;
+  gap: 20px;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -68,6 +87,8 @@ footer .adress {
   }
 }
 footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -75,14 +96,20 @@ footer .contact {
   gap: 12%;
 }
 footer .contact .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 footer .contact .phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 footer .contact .web-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 footer .contact span {
@@ -113,6 +140,8 @@ footer .inform :hover {
   border-radius: 10%;
 }
 
+<<<<<<< HEAD
+=======
 footer {
   background-color: rgb(218, 213, 213);
   margin-top: 9%;
@@ -185,17 +214,21 @@ footer .inform :hover {
   border-radius: 10%;
 }
 
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 @media screen and (max-width: 620px) {
   footer {
     padding-top: 5%;
   }
 }
+<<<<<<< HEAD
+=======
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -243,7 +276,8 @@ a {
   border-radius: 0%;
   min-width: 105px;
   right: 3%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -284,10 +318,12 @@ a {
   color: white;
   font-weight: bold;
   font-size: 18px;
+  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
 .cover .slideshow-container .next {
@@ -306,9 +342,13 @@ a {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .dot {
@@ -319,6 +359,7 @@ a {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -329,8 +370,19 @@ a {
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
@@ -374,7 +426,8 @@ header h1 {
   outline: none;
   background-color: black;
   border-radius: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .slider-books .slide-button:hover {
@@ -403,4 +456,4 @@ header h1 {
 .slider-books {
   max-width: 1200px;
   width: 95%;
-}/*# sourceMappingURL=kind-listbooks.css.map */
+}

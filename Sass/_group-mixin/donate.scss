@@ -3,10 +3,22 @@
 
 // register
 .container {
+<<<<<<< HEAD
+  height: 188vh;
+
+  .form-container {
+    margin-top: 20px;
+
+=======
   height: 190vh;
   
   .form-container {
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+>>>>>>> e62bbd8e2610ec31559324caa73501cc4565b90a
     .form-title {
       display: flex;
       align-items: center;
@@ -37,17 +49,29 @@
       border: 1px solid #000;
       border-radius: 10px 10px 10px 10px;
       width: 50%;
+<<<<<<< HEAD
+      height: 600px;
+=======
       height: 510px;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
       margin-top: 50px;
       margin-left: 340px;
       padding: 30px;
       background: rgba(220, 220, 220, 0.959);
+<<<<<<< HEAD
+
+=======
    
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
       .form-group {
         padding: 20px;
 
         input[type="text"] {
+<<<<<<< HEAD
+          width: 49%;
+=======
           width: 48%;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
           height: 50px;
           margin-top: 20px;
         }
@@ -61,7 +85,11 @@
 
         input[type="password"],
         input[type="email"] {
+<<<<<<< HEAD
+          width: 99.5%;
+=======
           width: 98%;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
           height: 50px;
 
         }
@@ -77,7 +105,11 @@
         }
 
         input[type="pay"] {
+<<<<<<< HEAD
+          width: 470px;
+=======
           width: 430px;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
           height: 50px;
           margin-left: 20px;
         }
@@ -90,7 +122,11 @@
 
         .selection {
           select {
+<<<<<<< HEAD
+            width: 175px;
+=======
             width: 100px;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
             height: 54px;
             padding: 10px;
           }
@@ -129,9 +165,17 @@
   }
   @include responsive ('Mobile') {
     .form-container {
+<<<<<<< HEAD
+      margin-inline: -33%;
+=======
       margin-inline: -32%;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
       width: 120%;
       padding-top: 5%;
     }
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a

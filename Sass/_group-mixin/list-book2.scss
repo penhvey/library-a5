@@ -1,5 +1,48 @@
+<<<<<<< HEAD
+@import "main";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 12vh;
+    background-color: rgb(218, 213, 213);
+}
+header {
+    margin-bottom: 8%;
+}
+
+.inform {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    gap: 15%;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
+}
+
+.logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 4%;
+    color: rgb(8, 116, 116);
+    font-weight: bold;
+}
+
+.logo>img {
+    border: 2px solid rgb(16, 92, 92);
+    border-radius: 50%;
+}
+
+=======
 @import "main" ;
 @import "../components/responsive.scss";
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .inform :hover {
     color: rgb(229, 135, 4);
     font-weight: bold;

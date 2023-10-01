@@ -14,6 +14,8 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
+<<<<<<< HEAD
+=======
 nav .logo img {
   border: 2px solid rgb(16, 92, 92);
   border-radius: 50%;
@@ -25,13 +27,28 @@ nav .logo img {
     font-size: 7px;
   }
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 nav .inform {
   display: flex;
+<<<<<<< HEAD
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 55%;
+  gap: 20px;
+=======
   align-items: center;
   margin-left: 40%;
   gap: 18%;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -190,12 +207,15 @@ footer .inform :hover {
     padding-top: 5%;
   }
 }
+<<<<<<< HEAD
+=======
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -321,6 +341,18 @@ a {
   margin-top: -60px;
   color: teal;
 }
+@media screen and (max-width: 620px) {
+  .about-us .color-gray h1 {
+    font: 1.1em sans-serif;
+  }
+}
+@media screen and (max-width: 620px) {
+  .about-us .color-gray {
+    width: 70%;
+    height: 9vh;
+    margin-left: 30px;
+  }
+}
 .about-us .contact-me button {
   background: teal;
   color: white;
@@ -329,6 +361,11 @@ a {
   border: 1px teal;
   margin-left: 48%;
   margin-top: -50px;
+}
+@media screen and (max-width: 620px) {
+  .about-us .contact-me {
+    margin-bottom: 50px;
+  }
 }
 .about-us p {
   background-color: rgb(164, 214, 214);
@@ -346,6 +383,21 @@ a {
 }
 .about-us iframe {
   width: 100%;
+<<<<<<< HEAD
+  margin-top: 10.7%;
+}
+@media screen and (max-width: 620px) {
+  .about-us iframe {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-us {
+    height: 110vh;
+  }
+}
+=======
   margin-top: 8%;
   height: 470px;
 }
@@ -358,3 +410,4 @@ nav .inform {
   font-weight: bold;
   color: rgb(8, 116, 116);
 }/*# sourceMappingURL=about-us.css.map */
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
