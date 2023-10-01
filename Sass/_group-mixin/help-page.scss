@@ -42,6 +42,7 @@ h1>span {
     color: rgba(0, 0, 0, 0.458);
 }
 
+  
 /* header{
 
 } */
@@ -152,7 +153,16 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+nav .inform {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    gap: 15%;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
+  }
+  
+  
 .dropdown {
     float: left;
     overflow: hidden;

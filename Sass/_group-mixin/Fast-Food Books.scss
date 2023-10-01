@@ -136,3 +136,11 @@ nav {
   background-color: rgba(255, 255, 255, 0.719);
   color: rgb(11, 203, 203);
 }
+nav .inform {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  gap: 15%;
+  font-weight: bold;
+  color: rgb(8, 116, 116);
+}
