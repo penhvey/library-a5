@@ -1,12 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 nav {
   display: flex;
   height: 12vh;
+  width: 100%;
   background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
@@ -21,7 +16,7 @@ nav .logo {
 }
 nav .logo img {
   border: 2px solid rgb(16, 92, 92);
-  border-radius: 50%;
+  border-radius: 50px;
 }
 nav .inform {
   display: flex;
@@ -79,6 +74,12 @@ footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 .inform :hover {

@@ -1,11 +1,13 @@
+@import"./responsive";
+
 nav {
     display: flex;
     height: 12vh;
+    width: 100%;
     background-color: rgb(218, 213, 213);
     position: sticky;
     top: 0px;
 
-    // margin-bottom: 2%;
     .logo {
         display: flex;
         justify-items: center;
@@ -13,9 +15,10 @@ nav {
         margin-left: 4%;
         color: rgb(8, 116, 116);
         font-weight: bold;
+
         img {
             border: 2px solid rgb(16, 92, 92);
-            border-radius: 50%;
+            border-radius: 50px;
         }
     }
     .inform {
@@ -27,6 +30,4 @@ nav {
         color: rgb(8, 116, 116);
     }
 }
-
-
 

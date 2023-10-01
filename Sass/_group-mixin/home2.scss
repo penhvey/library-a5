@@ -18,7 +18,6 @@ nav {
     font-weight: bold;
     color: rgb(8, 116, 116);
 }
-
 .logo {
     display: flex;
     justify-items: center;
@@ -202,9 +201,6 @@ img {
     gap: 3rem;
   }
 }
-
-
-
 .second-block {
     position: absolute;
     bottom: 20%;
@@ -398,5 +394,88 @@ a {
 .dropdown:hover .dropdown-content {
     display: block;
 
-}
+} 
+// // responsive
+// @include responsive('Mobile'){
+//   nav{
+//         display: flex;
+//         height: 5vh;
+//       .inform {
+//         display: flex;
+//         align-items: center;
+//         margin-left: 10%;
+//         gap: 10%;
+//         font-weight: bold;
+//       }
+//   }
+//   }
+//     // nav {
+//     //   display: flex;
+//     //   height: 5vh;
+//     //   .inform {
+//     //     display: flex;
+//     //     align-items: center;
+//     //     margin-left: 10%;
+//     //     gap: 10%;
+//     //     font-weight: bold;
+//     // }
+// // }
+// // }
+// // .text-block {
+// //   position: absolute;
+// //   border-radius: 5vh;
+// //   margin-left: 5%;
+// //   bottom:20%;
+// //   height: 35vh;
+// //   width: 50%;
+// //   h1{
+// //     font-size: 20px;
+// //   }
+// //   p{
+// //     font-size: 16px;
+// //   }
+// // }
+// // header{
+// //  .open-time{
+// //   h1{
+// //     margin-left: 30%;
+// //   }
+// //   p{
+// //     font-size: 15px;
+// //     margin-left: 10%;
+// //   }
+// // }
+// // .date-time{
+// //   .date{
+// //     p{
+// //       font-size: 18px;
+// //       margin-left: 10px;
+// //     }
+// //   }
+// // }
+// // }
+// //   .adress{
+// //     font-size: 15px;
+// //   }
+// //     .contact {
+// //       display: flex;
+// //       font-size: 10px;
+// //       margin-top: 5%;
+// //       margin-left: 5%;
+// //   .email {
+// //       display: flex;
+// //       gap: 4%;
+// //   }
+// //   .phone-number {
+// //       display: flex;
+// //   }
+// //   .web-gmail {
+// //       display: flex;
+// //   }
+  
+  
+  
+  
+  
+  
 

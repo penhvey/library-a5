@@ -5,8 +5,6 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12vh;
   background-color: rgb(218, 213, 213);
@@ -14,13 +12,9 @@ nav {
   top: 0px;
 }
 nav .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 4%;
   color: rgb(8, 116, 116);
   font-weight: bold;
@@ -30,12 +24,8 @@ nav .logo img {
   border-radius: 50%;
 }
 nav .inform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 40%;
   gap: 18%;
   font-weight: bold;
@@ -58,8 +48,6 @@ footer .adress {
   color: rgba(0, 0, 0, 0.351);
 }
 footer .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   margin-top: 5%;
@@ -67,20 +55,14 @@ footer .contact {
   gap: 12%;
 }
 footer .contact .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 4%;
   gap: 15%;
 }
 footer .contact .phone-number {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 footer .contact .web-gmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 footer .contact span {
@@ -146,8 +128,7 @@ a {
   border-radius: 0%;
   min-width: 105px;
   right: 3%;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -170,37 +151,25 @@ a {
 }
 
 .container {
-<<<<<<< HEAD
   height: 188vh;
 }
-.container .form-container {
+
+.form-container {
   margin-top: 20px;
 }
-.container .form-container .form-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.form-container .form-title {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: teal;
 }
-.container .form-container p {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.form-container p {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
 }
-.container .form-container .register {
+.form-container .register {
   border: 1px solid #000;
   border-radius: 10px 10px 10px 10px;
   width: 50%;
@@ -210,42 +179,40 @@ a {
   padding: 20px;
   background: rgba(220, 220, 220, 0.959);
 }
-.container .form-container .register .form-group {
+.form-container .register .form-group {
   padding: 20px;
 }
-.container .form-container .register .form-group input[type=text] {
+.form-container .register .form-group input[type=text] {
   width: 49%;
   height: 50px;
 }
-.container .form-container .register .form-group input[type=password],
-.container .form-container .register .form-group input[type=email] {
+.form-container .register .form-group input[type=password],
+.form-container .register .form-group input[type=email] {
   width: 99.5%;
   height: 50px;
 }
-.container .form-container .register .form-group1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.form-container .register .form-group1 {
   display: flex;
   margin-top: 20px;
   gap: 5%;
 }
-.container .form-container .register .form-group1 input {
+.form-container .register .form-group1 input {
   padding-left: 20px;
 }
-.container .form-container .register .form-group1 input[type=pay] {
+.form-container .register .form-group1 input[type=pay] {
   width: 400px;
   height: 50px;
   margin-left: 20px;
 }
-.container .form-container .register .form-group1 .selection select {
+.form-container .register .form-group1 .selection select {
   width: 175px;
   height: 54px;
   padding: 10px;
 }
-.container .form-container .register .form-group-btn {
+.form-container .register .form-group-btn {
   padding-left: 20px;
 }
-.container .form-container .register .form-group-btn button {
+.form-container .register .form-group-btn button {
   width: 97%;
   height: 50px;
   padding: 10px 25px;
@@ -255,7 +222,8 @@ a {
   background: green;
   color: #fff;
 }
-=======
+
+.container {
   height: 160vh;
   /* Caption text */
   /* Fading animation */
@@ -333,4 +301,3 @@ a {
   margin-top: 2%;
   text-align: justify;
 }/*# sourceMappingURL=donate.css.map */
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
