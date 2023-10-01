@@ -27,9 +27,12 @@ nav .inform {
   display: flex;
   align-items: center;
   margin-left: 40%;
-  gap: 18%;
+  gap: 15%;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+.submit {
+  background-color: aliceblue;
 }
 
 footer {
