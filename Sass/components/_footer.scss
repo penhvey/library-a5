@@ -1,3 +1,4 @@
+@import "./responsive.scss";
 footer {
     background-color: rgb(218, 213, 213);
     margin-top: 9%;
@@ -8,10 +9,22 @@ footer {
         font-size: 40px;
     
     }
+    @include responsive ('Mobile'){
+        .form-icons{
+            margin-inline: 20%;
+            
+        }
+    }
     .adress {
         margin-top: 2%;
         margin-left: 26%;
         color: rgba(0, 0, 0, 0.351);
+    }
+    @include responsive ('Mobile'){
+        .adress{
+            margin-inline: 12%;
+            padding-top: 3%;
+        }
     }
     .contact {
         display: flex;
@@ -34,6 +47,13 @@ footer {
             gap: 10px;
         }
     }
+    @include responsive ('Mobile'){
+        .contact{
+            margin-inline: 20px;
+            padding-top: 3%;
+        }
+    }
+    
     .second-footer {
         margin-top: 3%;
         margin-top: 2%;
@@ -41,33 +61,15 @@ footer {
         font-size: 10px;
         color: rgba(0, 0, 0, 0.372);
     }
+    @include responsive ('Mobile'){
+        .second-footer{
+            margin-inline: 35%;
+            padding-top: 3%;
+        }
+    }
     .inform :hover {
         background-color: orange;
         color: white;
         border-radius: 10%;
     }
 }
-
-
-
-// .form-icons > div {
-//     margin-top: 5%;
-//     margin-left: 5%;
-// }
-
-
-
-
-
-
-// .email {
-//     display: flex;
-// }
-
-
-
-
-
-
-
-
