@@ -1,15 +1,7 @@
 @import "main";
-<<<<<<< HEAD
-
-
 // about-us//
-.about-us {
-=======
 .about-us{
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
     height: 210vh;
-
-<<<<<<< HEAD
     .color-gray {
         background-color: rgb(202, 200, 200);
         display: flex;
@@ -19,7 +11,6 @@
         width: 80%;
         margin-left: 20vh;
         margin-top: 10vh;
-=======
 button{
     background: teal;
     color: white;
@@ -61,8 +52,6 @@ a {
     color: rgb(229, 135, 4);
     font-weight: bold;
 }
->>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
-
         h1 {
             margin-top: -60px;
             color: teal;
@@ -103,3 +92,11 @@ a {
         height: 470px;
     }
 }
+nav .inform {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    gap: 15%;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
+  }

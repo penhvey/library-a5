@@ -1,9 +1,9 @@
+
 @import"./responsive";
 
 nav {
     display: flex;
     height: 12vh;
-    width: 100%;
     background-color: rgb(218, 213, 213);
     position: sticky;
     top: 0px;
@@ -15,12 +15,12 @@ nav {
         margin-left: 4%;
         color: rgb(8, 116, 116);
         font-weight: bold;
-
         img {
             border: 2px solid rgb(16, 92, 92);
-            border-radius: 50px;
+            border-radius: 50%;
         }
     }
+
     .inform {
         display: flex;
         align-items: center;
@@ -29,5 +29,11 @@ nav {
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
-}
 
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+        }
+    }
+}

@@ -1,7 +1,6 @@
 nav {
   display: flex;
   height: 12vh;
-  width: 100%;
   background-color: rgb(218, 213, 213);
   position: sticky;
   top: 0px;
@@ -16,7 +15,7 @@ nav .logo {
 }
 nav .logo img {
   border: 2px solid rgb(16, 92, 92);
-  border-radius: 50px;
+  border-radius: 50%;
 }
 nav .inform {
   display: flex;
@@ -25,6 +24,12 @@ nav .inform {
   gap: 18%;
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
