@@ -1,39 +1,37 @@
-
 @import"./responsive";
-
-nav {
-    display: flex;
-    height: 12vh;
-    background-color: rgb(218, 213, 213);
-    position: sticky;
-    top: 0px;
-
-    .logo {
+@include responsive('Mobile') {
+    nav {
+        margin-left: 20px;
+        display: flex;
+        height: 5vh;
+        width: 100%;
+        background-color: rgb(218, 213, 213);
+      }
+      .inform {
+        display: flex;
+        align-items: center;
+        margin-left: 1%;
+        gap: 20px;
+        font-size: 8px;
+        font-weight: bold;
+        color: rgb(8, 116, 116);
+      }
+      .logo {
         display: flex;
         justify-items: center;
         align-items: center;
         margin-left: 4%;
         color: rgb(8, 116, 116);
         font-weight: bold;
-        img {
-            border: 2px solid rgb(16, 92, 92);
-            border-radius: 50%;
-        }
-    }
-
-    .inform {
-        display: flex;
-        align-items: center;
-        margin-left: 40%;
-        gap: 18%;
-        font-weight: bold;
-        color: rgb(8, 116, 116);
-    }
-
-    @include responsive('Mobile') {
-        .inform {
-            gap: 10%;
-            margin-inline: 20%;
-        }
-    }
+      }
+      
+      .logo>img {
+        border: 1px solid rgb(16, 92, 92);
+        border-radius: 20%;
+      }
+      .logo>span {
+        font-size: 8px;
+      }
 }
+
+
