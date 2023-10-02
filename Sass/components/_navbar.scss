@@ -2,10 +2,8 @@
 
 nav {
     display: flex;
-    height: 8vh;
+    height: 12vh;
     background-color: rgb(218, 213, 213);
-    position: sticky;
-    top: 0;
     // margin-bottom: 6%;
     // margin-top: 0;
 
@@ -25,7 +23,7 @@ nav {
         display: flex;
         align-items: center;
         margin-left: 40%;
-        gap: 18%;
+        gap: 15%;
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
