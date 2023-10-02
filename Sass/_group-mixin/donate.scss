@@ -1,32 +1,13 @@
 @import "main";
-<<<<<<< HEAD
 
 // register
 .container {
   height: 160vh;
-=======
-@import "../components/responsive.scss";
-
-// register
-.container {
-<<<<<<< HEAD
-  height: 188vh;
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
 
   .form-container {
     // margin-top: 20px;
     // height: 190vh;
 
-=======
-  height: 190vh;
-  
-  .form-container {
-    margin-top: 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
->>>>>>> e62bbd8e2610ec31559324caa73501cc4565b90a
     .form-title {
       display: flex;
       align-items: center;
@@ -34,15 +15,6 @@
       color: teal;
     }
 
-<<<<<<< HEAD
-=======
-    @include responsive('Mobile') {
-      .form-title {
-        margin-left: 30%;
-      }
-    }
-
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
     p {
       display: flex;
       align-items: center;
@@ -50,76 +22,26 @@
       margin-top: 20px;
     }
 
-<<<<<<< HEAD
-=======
-    @include responsive ('Mobile') {
-      p {
-        margin-left: 30%;
-      }
-    }
-
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
     .register {
-      border: 1px solid #000;
-      border-radius: 10px 10px 10px 10px;
+      border: 1px solid $black000;
       width: 50%;
-<<<<<<< HEAD
       height: 530px;
       margin-top: 30px;
       margin-left: 350px;
       padding-top: 30px;
 
-=======
-<<<<<<< HEAD
-      height: 600px;
-=======
-      height: 510px;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
-      margin-top: 50px;
-      margin-left: 340px;
-      padding: 30px;
-      background: rgba(220, 220, 220, 0.959);
-<<<<<<< HEAD
-
-=======
-   
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
       .form-group {
         padding: 20px;
 
         input[type="text"] {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
           width: 49%;
-=======
-          width: 48%;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
           height: 50px;
-          margin-top: 20px;
         }
 
-<<<<<<< HEAD
-=======
-        @include responsive ('Mobile') {
-          input[type="text"] {
-            width: 100%;
-            // gap: 5%;
-          }
-        }
-
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
         input[type="password"],
         input[type="email"] {
-<<<<<<< HEAD
           width: 99.5%;
-=======
-          width: 98%;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
           height: 50px;
-
         }
       }
 
@@ -128,26 +50,12 @@
         margin-top: 20px;
         gap: 5%;
 
-<<<<<<< HEAD
         input[type="pay"] {
           width: 350px;
-=======
-        input {
-          padding-left: 20px;
-        }
-
-        input[type="pay"] {
-<<<<<<< HEAD
-          width: 470px;
-=======
-          width: 430px;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
           height: 50px;
           margin-left: 20px;
         }
 
-<<<<<<< HEAD
         select {
           width: 100px;
           height: 54px;
@@ -180,89 +88,9 @@ footer {
 }
 nav {
   display: flex;
-  height: 12vh;
+  height: 14vh;
   background-color: rgb(218, 213, 213);
+  position: sticky;
+  top: 0;
   margin-top: 0;
 }
-nav .inform {
-  display: flex;
-  align-items: center;
-  margin-left: 40%;
-  gap: 15%;
-  font-weight: bold;
-  color: rgb(8, 116, 116);
-}
-nav .logo {
-  margin-top: 6%;
-}
-.container {
-  height: 188vh;
-  // margin-top: -5%;
-}
-=======
-        @include responsive ('Mobile') {
-          input[type="pay"] {
-            width: 240px;
-          }
-        }
-
-        .selection {
-          select {
-<<<<<<< HEAD
-            width: 175px;
-=======
-            width: 100px;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
-            height: 54px;
-            padding: 10px;
-          }
-
-          @include responsive ('Mobile') {
-            select {
-              width: 100px;
-            }
-          }
-        }
-      }
-
-      .form-group-btn {
-        padding-left: 20px;
-
-        button {
-          width: 97%;
-          height: 50px;
-          padding: 10px 25px;
-          margin-top: 70px;
-          border: none;
-          cursor: pointer;
-          background: green;
-          color: #fff;
-          // border-radius: 25px;
-        }
-      }
-    }
-
-    @include responsive('Mobile') {
-      .register {
-        height: 600px;
-        margin-top: 10%;
-      }
-    }
-  }
-  @include responsive ('Mobile') {
-    .form-container {
-<<<<<<< HEAD
-      margin-inline: -33%;
-=======
-      margin-inline: -32%;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
-      width: 120%;
-      padding-top: 5%;
-    }
-  }
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
->>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468

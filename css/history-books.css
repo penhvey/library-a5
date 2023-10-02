@@ -172,9 +172,6 @@ a {
 .container {
 <<<<<<< HEAD
   height: 160vh;
-=======
-<<<<<<< HEAD
-  height: 160vh;
   /* Caption text */
   /* Fading animation */
 }
@@ -182,13 +179,12 @@ a {
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
 =======
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
   margin-top: 2%;
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
   /* Caption text */
   /* Fading animation */
 }
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 .container .slideshow-container {
   /* Next & previous buttons */
@@ -201,7 +197,6 @@ a {
 >>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 >>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
 }
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .container .slideshow-container .mySlides {
   width: 40%;
   height: 60%;
@@ -216,6 +211,25 @@ a {
   margin-bottom: 4%;
   margin-top: 4%;
 }
+.container .slideshow-container .prev,
+.container .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
 .container h1 {
   text-align: center;
   margin-top: 2%;
@@ -229,8 +243,6 @@ a {
   margin-bottom: 4%;
   margin-top: 4%;
 }
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 .container .slideshow-container .next {
   right: 0;
@@ -257,7 +269,6 @@ a {
   background-color: rgba(0, 0, 0, 0.8);
 }
 >>>>>>> aff1f9ce813857825cef1d85f97ae0641f8545f1
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .container .text {
   color: #f2f2f2;
   font-size: 15px;

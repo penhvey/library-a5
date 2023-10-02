@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
 <body>
     <nav>
         <div class="logo">
@@ -24,18 +23,17 @@
             <div class="about-us">ABOUTUS</div>
             <div class="navbar">
                 <div class="dropdown">
-                    <button class="dropbtn"><span class="fa fa-ellipsis-v"
-                            style="font-size:20px;color:black"></span></span>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">
-                            <i class=""></i>
-                            <p>Add a Book</p>
+                  <button class="dropbtn"><span class="fa fa-ellipsis-v" style="font-size:20px;color:black"></span></span>
+                  </button>
+                  <div class="dropdown-content">
+                      <a href="#">
+                          <i class=""></i>
+                          <p>Add a Book</p>
                         </a>
                         <a href="#">
                             <i class=""></i>
                             <p>Help & Support</p>
-                        </a>
+                          </a>
                         <a href="#">
                             <i class=""></i>
                             <p>Communication</p>
@@ -45,7 +43,7 @@
                             <p>About Us</p>
                         </a>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </nav>
@@ -55,6 +53,7 @@
                 <img src="/Photos/pic-listbooks/fun1.jpg" alt="" width="70%" height="500vh">
             </div>
             <div class="mySlides">
+<<<<<<< HEAD
                 <img src="/Photos/kide-books/Frindle.webp" alt="" width="70%" height="500vh">
             </div>
             <div class="mySlides">
@@ -71,61 +70,69 @@
             </div>
         </div>
         <h1> The <strong>Bad</strong> Guys</h1>
-    </div>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+=======
+                <img src="/Photos/kide-books/848515.jpg" alt="" width="70%" height="500vh">
+            </div>
+            <div class="mySlides">
+                <img src="/Photos/kide-books/images (28).jpg" width="70%" height="500vh">
+            </div>
+        </div>
+        <h1>Funny of <strong>Books</strong> </h1>
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum.
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum
-        molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
-        deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
-        quisquam illum.
-    </p>
 
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum.
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum
+            molestias quos, beatae veniam! Placeat tempora eaque accusantium quas necessitatibus hic eveniet consectetur
+            deserunt illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla amet eligendi iste
+            quisquam illum.
+        </p>
+        
     </div>
 </body>
 

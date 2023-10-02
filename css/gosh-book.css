@@ -25,6 +25,10 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
+nav .logo img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
 nav .inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,16 +36,10 @@ nav .inform {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 55%;
-  gap: 20px;
+  margin-left: 40%;
+  gap: 18%;
   font-weight: bold;
   color: rgb(8, 116, 116);
-}
-@media screen and (max-width: 620px) {
-  nav .inform {
-    gap: 10%;
-    margin-inline: 20%;
-  }
 }
 
 footer {
@@ -54,21 +52,10 @@ footer .form-icons {
   margin-left: 30%;
   font-size: 40px;
 }
-@media screen and (max-width: 620px) {
-  footer .form-icons {
-    margin-inline: 20%;
-  }
-}
 footer .adress {
   margin-top: 2%;
   margin-left: 26%;
   color: rgba(0, 0, 0, 0.351);
-}
-@media screen and (max-width: 620px) {
-  footer .adress {
-    margin-inline: 12%;
-    padding-top: 3%;
-  }
 }
 footer .contact {
   display: -webkit-box;
@@ -99,12 +86,6 @@ footer .contact .web-gmail {
 footer .contact span {
   gap: 10px;
 }
-@media screen and (max-width: 620px) {
-  footer .contact {
-    margin-inline: 20px;
-    padding-top: 3%;
-  }
-}
 footer .second-footer {
   margin-top: 3%;
   margin-top: 2%;
@@ -112,23 +93,12 @@ footer .second-footer {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.372);
 }
-@media screen and (max-width: 620px) {
-  footer .second-footer {
-    margin-inline: 35%;
-    padding-top: 3%;
-  }
-}
 footer .inform :hover {
   background-color: orange;
   color: white;
   border-radius: 10%;
 }
 
-@media screen and (max-width: 620px) {
-  footer {
-    padding-top: 5%;
-  }
-}
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -200,14 +170,23 @@ a {
 }
 
 .container {
+<<<<<<< HEAD
+  margin-top: 2%;
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+=======
   height: 160vh;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
   /* Caption text */
   /* Fading animation */
 }
 .container .slideshow-container {
-  margin-top: 20px;
+<<<<<<< HEAD
+  /* Next & previous buttons */
+=======
   /* Position the "next button" to the right */
   /* On hover, add a black background color with a little bit see-through */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 .container .slideshow-container .mySlides {
   width: 40%;
@@ -217,6 +196,46 @@ a {
   margin-right: 20%;
 }
 .container .slideshow-container .mySlides img {
+<<<<<<< HEAD
+  margin-left: 17%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.container .slideshow-container .prev,
+.container .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.container h1 strong {
+  color: orange;
+}
+.container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.container .prev:hover,
+.container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+=======
   margin-left: 15%;
   margin-bottom: 4%;
   margin-top: 4%;
@@ -236,6 +255,7 @@ a {
 .container h1 strong {
   color: orange;
 }
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 .container .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -266,6 +286,7 @@ a {
   background-color: #717171;
 }
 .container .fade {
+<<<<<<< HEAD
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -278,6 +299,10 @@ a {
   to {
     opacity: 1;
   }
+=======
+  animation-name: fade;
+  animation-duration: 1.5s;
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8
 }
 @keyframes fade {
   from {
@@ -292,4 +317,8 @@ a {
   margin-right: 15%;
   margin-top: 2%;
   text-align: justify;
+<<<<<<< HEAD
 }
+=======
+}/*# sourceMappingURL=gosh-book.css.map */
+>>>>>>> e1c746bddcaced2c8f55211e1962fc23d1909ef8

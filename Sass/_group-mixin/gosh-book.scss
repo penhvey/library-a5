@@ -1,15 +1,9 @@
 @import "main";
 
 .container {
-<<<<<<< HEAD
-  height: 160vh;
-
-=======
   margin-top: 2%;
   height: 160vh;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
   .slideshow-container {
-    margin-top: 20px;
     .mySlides {
       width: 40%;
       height: 60%;
@@ -18,19 +12,12 @@
       margin-right: 20%;
 
       img {
-<<<<<<< HEAD
-=======
         margin-left: 17%;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
         margin-left: 15%;
         margin-bottom: 4%;
         margin-top: 4%;
 
       }
-<<<<<<< HEAD
-    }
-
-=======
     /* Next & previous buttons */
     .prev,
     .next {
@@ -46,7 +33,6 @@
       transition: 0.6s ease;
       border-radius: 0 3px 3px 0;
       user-select: none;
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
     /* Position the "next button" to the right */
     .next {
       right: 0;
@@ -67,10 +53,6 @@
     strong {
       color: orange;
     }
-<<<<<<< HEAD
-  }
-
-=======
   /* Position the "next button" to the right */
   .next {
     right: 0;
@@ -82,7 +64,6 @@
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
->>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
   /* Caption text */
   .text {
     color: #f2f2f2;
