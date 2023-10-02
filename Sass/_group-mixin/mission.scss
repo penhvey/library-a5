@@ -38,3 +38,17 @@
         }
     }
 }
+
+nav {
+    display: flex;
+    height: 14vh;
+    background-color: rgb(218, 213, 213);
+}
+nav .inform {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    gap: 15%;
+    font-weight: bold;
+    color: rgb(8, 116, 116);
+  }

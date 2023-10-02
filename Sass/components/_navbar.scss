@@ -1,13 +1,11 @@
-@import"./responsive";
+@import"../components/responsive";
 
 nav {
     display: flex;
-    height: 8vh;
+    height: 12vh;
     background-color: rgb(218, 213, 213);
-    position: sticky;
-    top: 0;
-    margin-bottom: 6%;
-    margin-top: 0;
+    // margin-bottom: 6%;
+    // margin-top: 0;
 
     .logo {
         display: flex;
@@ -16,32 +14,18 @@ nav {
         margin-left: 4%;
         color: rgb(8, 116, 116);
         font-weight: bold;
-        img {
-            border: 2px solid rgb(16, 92, 92);
-            border-radius: 50%;
-        }
-    }
-    @include responsive('Mobile') {
-        .inform {
-            gap: 10%;
-            margin-inline: 20%;
-            font-size: 7px;
-        }
+        // img {
+        //     border: 2px solid rgb(16, 92, 92);
+        //     border-radius: 50%;
+        // }
     }
     .inform {
         display: flex;
         align-items: center;
         margin-left: 40%;
-        gap: 18%;
+        gap: 15%;
         font-weight: bold;
         color: rgb(8, 116, 116);
-    }
-}
-@include responsive('Mobile') {
-    .inform {
-        gap: 5px;
-        margin-inline: 20px;
-        font-size: 7px;
     }
 }
 
