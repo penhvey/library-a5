@@ -1,7 +1,16 @@
 @import "main";
+<<<<<<< HEAD
+@import "../components/responsive.scss";
+
+// about-us//
+.about-us {
+    height: 210vh;
+
+=======
 // about-us//
 .about-us{
     height: 210vh;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
     .color-gray {
         background-color: rgb(202, 200, 200);
         display: flex;
@@ -11,6 +20,9 @@
         width: 80%;
         margin-left: 20vh;
         margin-top: 10vh;
+<<<<<<< HEAD
+
+=======
 button{
     background: teal;
     color: white;
@@ -52,9 +64,25 @@ a {
     color: rgb(229, 135, 4);
     font-weight: bold;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
         h1 {
             margin-top: -60px;
             color: teal;
+        }
+
+        @include responsive ('Mobile') {
+            h1 {
+                font: 1.1em sans-serif;
+            }
+        }
+
+    }
+
+    @include responsive ('Mobile') {
+        .color-gray {
+            width: 70%;
+            height: 9vh;
+            margin-left: 30px;
         }
     }
 
@@ -67,6 +95,13 @@ a {
             border: 1px teal;
             margin-left: 48%;
             margin-top: -50px;
+        }
+
+    }
+
+    @include responsive ('Mobile') {
+        .contact-me{
+            margin-bottom: 50px;
         }
     }
 
@@ -88,8 +123,18 @@ a {
 
     iframe {
         width: 100%;
-        margin-top: 8%;
-        height: 470px;
+        margin-top: 10.7%;
+    }
+    @include responsive ('Mobile'){
+        iframe{
+            height: 200px;
+        }
+    }
+}
+
+@include responsive ('Mobile') {
+    .about-us {
+        height: 110vh;
     }
 }
 nav .inform {
@@ -100,8 +145,13 @@ nav .inform {
     font-weight: bold;
     color: rgb(8, 116, 116);
   }
+<<<<<<< HEAD
   nav {
     display: flex;
     height: 12vh;
     background-color: rgb(218, 213, 213);
   }
+=======
+  
+  
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468

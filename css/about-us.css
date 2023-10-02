@@ -11,13 +11,48 @@ nav .logo {
   color: rgb(8, 116, 116);
   font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+nav .logo img {
+  border: 2px solid rgb(16, 92, 92);
+  border-radius: 50%;
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+    font-size: 7px;
+  }
+}
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
 nav .inform {
   display: flex;
+<<<<<<< HEAD
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 55%;
+  gap: 20px;
+=======
   align-items: center;
   margin-left: 40%;
+<<<<<<< HEAD
   gap: 15%;
+=======
+  gap: 18%;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
   font-weight: bold;
   color: rgb(8, 116, 116);
+}
+@media screen and (max-width: 620px) {
+  nav .inform {
+    gap: 10%;
+    margin-inline: 20%;
+  }
 }
 
 footer {
@@ -92,12 +127,92 @@ footer .inform :hover {
   border-radius: 10%;
 }
 
+footer {
+  background-color: rgb(218, 213, 213);
+  margin-top: 9%;
+  height: 50vh;
+  padding-top: 50px;
+}
+footer .form-icons {
+  margin-left: 30%;
+  font-size: 40px;
+}
+@media screen and (max-width: 620px) {
+  footer .form-icons {
+    margin-inline: 20%;
+  }
+}
+footer .adress {
+  margin-top: 2%;
+  margin-left: 26%;
+  color: rgba(0, 0, 0, 0.351);
+}
+@media screen and (max-width: 620px) {
+  footer .adress {
+    margin-inline: 12%;
+    padding-top: 3%;
+  }
+}
+footer .contact {
+  display: flex;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 9%;
+  gap: 12%;
+}
+footer .contact .email {
+  display: flex;
+  gap: 4%;
+  gap: 15%;
+}
+footer .contact .phone-number {
+  display: flex;
+}
+footer .contact .web-gmail {
+  display: flex;
+}
+footer .contact span {
+  gap: 10px;
+}
+@media screen and (max-width: 620px) {
+  footer .contact {
+    margin-inline: 20px;
+    padding-top: 3%;
+  }
+}
+footer .second-footer {
+  margin-top: 3%;
+  margin-top: 2%;
+  margin-left: 45%;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.372);
+}
+@media screen and (max-width: 620px) {
+  footer .second-footer {
+    margin-inline: 35%;
+    padding-top: 3%;
+  }
+}
+footer .inform :hover {
+  background-color: orange;
+  color: white;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 620px) {
+  footer {
+    padding-top: 5%;
+  }
+}
+<<<<<<< HEAD
+=======
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 .inform :hover {
   color: rgb(229, 135, 4);
   font-weight: bold;
@@ -223,6 +338,18 @@ a {
   margin-top: -60px;
   color: teal;
 }
+@media screen and (max-width: 620px) {
+  .about-us .color-gray h1 {
+    font: 1.1em sans-serif;
+  }
+}
+@media screen and (max-width: 620px) {
+  .about-us .color-gray {
+    width: 70%;
+    height: 9vh;
+    margin-left: 30px;
+  }
+}
 .about-us .contact-me button {
   background: teal;
   color: white;
@@ -231,6 +358,11 @@ a {
   border: 1px teal;
   margin-left: 48%;
   margin-top: -50px;
+}
+@media screen and (max-width: 620px) {
+  .about-us .contact-me {
+    margin-bottom: 50px;
+  }
 }
 .about-us p {
   background-color: rgb(164, 214, 214);
@@ -248,6 +380,21 @@ a {
 }
 .about-us iframe {
   width: 100%;
+<<<<<<< HEAD
+  margin-top: 10.7%;
+}
+@media screen and (max-width: 620px) {
+  .about-us iframe {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-us {
+    height: 110vh;
+  }
+}
+=======
   margin-top: 8%;
   height: 470px;
 }
@@ -259,6 +406,7 @@ nav .inform {
   gap: 15%;
   font-weight: bold;
   color: rgb(8, 116, 116);
+<<<<<<< HEAD
 }
 
 nav {
@@ -266,3 +414,7 @@ nav {
   height: 12vh;
   background-color: rgb(218, 213, 213);
 }/*# sourceMappingURL=about-us.css.map */
+=======
+}/*# sourceMappingURL=about-us.css.map */
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468

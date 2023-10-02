@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+@import "main";
+
+=======
 @import "../components/responsive.scss";
 * {
   margin: 0;
@@ -70,6 +75,7 @@ nav {
   padding: 0;
   box-sizing: border-box;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
 body {
   margin: 0;
@@ -79,6 +85,8 @@ body {
   width: 100vw;
   background-color: var(--dark-color-lighten);
   font-family: "Montserrat", sans-serif;
+<<<<<<< HEAD
+=======
 }
 
 button {
@@ -90,17 +98,30 @@ button {
   color: var(--text);
   cursor: pointer;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
-a {
-  text-decoration: none;
-}
+  .cover {
+    position: relative;
+    font-family: sans-serif;
 
-img {
-  max-width: 100%;
-  height: 100%;
-  user-select: none;
-}
+    .text-block {
+      position: absolute;
+      border-radius: 5vh;
+      bottom: 35%;
+      height: 35vh;
+      width: 53%;
+      background-color: rgba(255, 255, 255, 0.719);
+      color: rgb(11, 203, 203);
+      // color: teal;
+      h1 {
+        margin-top: 6%;
+        margin-left: 5%;
 
+<<<<<<< HEAD
+        span {
+          color: rgb(187, 124, 6);
+        }
+=======
 /*===== CARD =====*/
 .container {
   height: 100%;
@@ -124,11 +145,21 @@ img {
   color: var(--text);
   cursor: pointer;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
-.card-blue {
-  background: var(--blue-card);
-}
+        p {
+          margin-top: 2%;
+          margin-left: 5%;
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
 
+<<<<<<< HEAD
+    .second-block {
+      position: absolute;
+      bottom: 20%;
+=======
 .product-image {
   height: 230px;
   width: 100%;
@@ -140,11 +171,22 @@ img {
 .product-info {
   text-align: center;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
-.card:hover .product-image {
-  transform: translate(-1.5rem, -7rem) rotate(-20deg);
-}
+      button {
+        margin-left: 25%;
+        color: rgba(255, 255, 255, 0.847);
+        font-weight: bold;
+        border-radius: 20vh;
+        height: 6vh;
+        width: 120px;
+        border: none;
+        background-color: rgb(9, 90, 90);
+      }
 
+<<<<<<< HEAD
+    }
+=======
 .product-info h2 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -188,22 +230,35 @@ img {
   display: grid;
   place-items: center;
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
-.svg {
-  height: 25px;
-  width: 25px;
-  fill: #fff;
-  transition: all 500ms ease;
-}
 
-.fav:hover .svg {
-  fill: #000;
-}
 
-@media screen and (max-width: 800px) {
-  body {
-    height: auto;
+    /*===== GOOGLE FONTS =====*/
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+    /*===== VARIABLES CSS =====*/
+    :root {
+      --dark-color-lighten: #f2f5ff;
+      --red-card: #a62121;
+      --blue-card: #4bb7e6;
+      --btn: #141414;
+      --btn-hover: #3a3a3a;
+      --text: #fbf7f7;
+    }
+
+    /*===== RESET =====*/
+    *,
+    ::before,
+    ::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
   }
+<<<<<<< HEAD
+=======
 
   .container {
     padding: 2rem 0;
@@ -243,11 +298,57 @@ h1>span {
   margin-left: 5%;
   color: rgb(0, 0, 0);
 }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
 /* header{
 
-} */
 
+} */
+  header {
+    .open-time {
+      h1 {
+        margin-top: 5%;
+        margin-left: 35%;
+        font-size: 60px;
+        color: rgb(3, 82, 82);
+
+<<<<<<< HEAD
+        span {
+          color: rgb(206, 134, 0);
+        }
+      }
+
+      p {
+        color: rgba(0, 0, 0, 0.437);
+        margin-top: 2%;
+        margin-left: 24%;
+      }
+    }
+  }
+
+  .date-time {
+    margin-top: 12%;
+    margin-left: 6%;
+
+    .date {
+      display: flex;
+      font-size: 30px;
+      font-weight: bold;
+      gap: 20%;
+
+      p {
+        span {
+          color: rgba(231, 13, 13, 0.756);
+        }
+      }
+
+      .vl {
+        border: 1px solid rgba(0, 0, 0, 0.361);
+        height: 60px;
+      }
+    }
+  }
+=======
 .open-time>h1 {
   margin-top: 5%;
   margin-left: 35%;
@@ -493,17 +594,16 @@ a {
 @include responsive ('Mobile') {
   nav {
     display: flex;
-    height: 4vh;
+    height: 8vh;
     width: 100%;
     background-color: rgb(218, 213, 213);
-  }
-  
+  }  
   .inform {
     display: flex;
     align-items: center;
-    margin-left: 35%;
+    margin-left: 19%;
     gap: 6%;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: bold;
     color: rgb(8, 116, 116);
   }
@@ -522,11 +622,14 @@ a {
     border-radius: 20%;
   }
   .logo>span {
-    font-size: 6px;
+    font-size: 8px;
   }
   .cover {
     position: relative;
     font-family: sans-serif;
+  }
+  .cover img {
+    height: 30vh;
   }
   .text-block {
     position: absolute;
@@ -553,7 +656,7 @@ a {
     height: 2vh;
   }
   header {
-    height: 45vh;
+    height: 30vh;
   }
   .date-time {
     display: flex;
@@ -571,7 +674,7 @@ a {
     margin-right: 5%;
   }
   .date .vl {
-    height: 28vh;
+    height: 15vh;
   }
   footer {
     height: 160px;
@@ -585,9 +688,15 @@ a {
       margin-right: -6%;
     }
     .second-footer p {
-      font-size: 5px;
+      font-size: 4px;
       margin-top: 18%;
       margin-left: -12%;
     }
+    .date p {
+      font-size: 8px;
+    }
   }
+}
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+
 }

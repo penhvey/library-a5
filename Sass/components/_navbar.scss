@@ -4,8 +4,20 @@ nav {
     display: flex;
     height: 12vh;
     background-color: rgb(218, 213, 213);
+<<<<<<< HEAD
     // margin-bottom: 6%;
     // margin-top: 0;
+=======
+    position: sticky;
+<<<<<<< HEAD
+    top: 0px;
+    // margin-bottom: 2%;
+=======
+    top: 0;
+    margin-bottom: 6%;
+    margin-top: 0;
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
 
     .logo {
         display: flex;
@@ -18,16 +30,46 @@ nav {
         //     border: 2px solid rgb(16, 92, 92);
         //     border-radius: 50%;
         // }
+<<<<<<< HEAD
+=======
     }
+<<<<<<< HEAD
+
+=======
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+            font-size: 7px;
+        }
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
+    }
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
     .inform {
         display: flex;
         align-items: center;
+<<<<<<< HEAD
         margin-left: 40%;
         gap: 15%;
+=======
+        margin-left: 55%;
+        gap: 20px;
+>>>>>>> e057c963fe259da5e3d82044e642feb0a5eb3468
         font-weight: bold;
         color: rgb(8, 116, 116);
     }
+<<<<<<< HEAD
+
+    @include responsive('Mobile') {
+        .inform {
+            gap: 10%;
+            margin-inline: 20%;
+        }
+    }
+=======
 }
 
+>>>>>>> c646aeb2a8fca86a09b3c195127011689c24b64a
 
 
+}
